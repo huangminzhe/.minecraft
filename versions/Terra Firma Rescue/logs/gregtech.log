@@ -40,18 +40,18 @@ GT_Mod: Increasing general amount of Loot in Dungeon Chests and alike
 GT_Mod: Nerfing Vanilla Tool Durability
 GT_Mod: Removing all original Scrapbox Drops.
 GT_Mod: Adding Scrap with a Weight of 200.0F to the Scrapbox Drops.
+GT_DL_Thread: Failed to Connect.
+GT_DL_Thread: Failed downloading Silver Supporter List, using interal List!
 GT_Mod: PreInit-Phase finished!
 GT_Mod: =======================
 GT_DL_Thread: Failed to Connect.
-GT_DL_Thread: Failed downloading Silver Supporter List, using interal List!
-GT_DL_Thread: Failed to Connect.
 GT_DL_Thread: Failed downloading Gold Supporter List, using interal List!
+GT_DL_Thread: Failed to Connect.
 GT_API: ===================
 GT_API: Init-Phase started!
 GT_API: If the Loading Bar somehow Freezes at this Point, then you definetly ran out of Memory or permgenspace, look at the other Logs to confirm it.
 GT_API: Init-Phase finished!
 GT_API: ====================
-GT_DL_Thread: Failed to Connect.
 GT_API_POST: ===================
 GT_API_POST: Init-Phase started!
 GT_API_POST: Initialize Wood Dictionary.
@@ -94,3 +94,66 @@ GT_Mod: Copying all of the Forestry Centrifuge/Squeezer Recipes to GT Machines
 GT_Mod: ========================
 GT_Client: Setting up and loading Icon Register for Blocks
 GT_Client: Setting up and loading Icon Register for Items
+GT_API: Remapping ItemStackMaps due to ID Map change. Those damn Items should have a consistent Hashcode, but noooo, ofcourse they break Basic Code Conventions! Thanks Forge and Mojang!
+WARNING: Recipe has more than the maximum amount of Output ItemStacks!
+	at ru.lionzxy.damagetweaker.mods.GregTechHandler$5.run(GregTechHandler.java:163)
+	at ru.lionzxy.damagetweaker.utils.UndoableAction.apply(UndoableAction.java:29)
+	at minetweaker.runtime.MTTweaker.apply(MTTweaker.java:70)
+	at minetweaker.MineTweakerAPI.apply(MineTweakerAPI.java:169)
+	at ru.lionzxy.damagetweaker.mods.GregTechHandler.addCustomRecipe(GregTechHandler.java:177)
+WARNING: Recipe has more than the maximum amount of Output ItemStacks!
+	at ru.lionzxy.damagetweaker.mods.GregTechHandler$5.run(GregTechHandler.java:163)
+	at ru.lionzxy.damagetweaker.utils.UndoableAction.apply(UndoableAction.java:29)
+	at minetweaker.runtime.MTTweaker.apply(MTTweaker.java:70)
+	at minetweaker.MineTweakerAPI.apply(MineTweakerAPI.java:169)
+	at ru.lionzxy.damagetweaker.mods.GregTechHandler.addCustomRecipe(GregTechHandler.java:177)
+ERROR: Recipe has no Outputs!
+	at gregapi.recipes.handlers.RecipeMapHandlerPrefix.addRecipeForMaterial(RecipeMapHandlerPrefix.java:218)
+	at gregapi.recipes.handlers.RecipeMapHandlerPrefix.addAllRecipesInternal(RecipeMapHandlerPrefix.java:173)
+	at gregapi.recipes.handlers.RecipeMapHandlerPrefix.addAllRecipes(RecipeMapHandlerPrefix.java:167)
+	at ru.lionzxy.damagetweaker.mods.GregTechHandler.addFluidInput(GregTechHandler.java:73)
+	at ru.lionzxy.damagetweaker.mods.GregTechHandler.addFluidInput(GregTechHandler.java:42)
+ERROR: Recipe has no Outputs!
+	at gregapi.recipes.handlers.RecipeMapHandlerPrefix.addRecipeForMaterial(RecipeMapHandlerPrefix.java:218)
+	at gregapi.recipes.handlers.RecipeMapHandlerPrefix.addAllRecipesInternal(RecipeMapHandlerPrefix.java:173)
+	at gregapi.recipes.handlers.RecipeMapHandlerPrefix.addAllRecipes(RecipeMapHandlerPrefix.java:167)
+	at ru.lionzxy.damagetweaker.mods.GregTechHandler.addFluidInput(GregTechHandler.java:73)
+	at ru.lionzxy.damagetweaker.mods.GregTechHandler.addFluidInput(GregTechHandler.java:42)
+WARNING: Recipe has more than the maximum amount of Output ItemStacks!
+	at ru.lionzxy.damagetweaker.mods.GregTechHandler$1.run(GregTechHandler.java:103)
+	at ru.lionzxy.damagetweaker.mods.GregTechHandler$3.run(GregTechHandler.java:127)
+	at ru.lionzxy.damagetweaker.utils.UndoableAction.apply(UndoableAction.java:29)
+	at minetweaker.runtime.MTTweaker.apply(MTTweaker.java:70)
+	at minetweaker.MineTweakerAPI.apply(MineTweakerAPI.java:169)
+WARNING: Recipe has more than the maximum amount of Output ItemStacks!
+	at ru.lionzxy.damagetweaker.mods.GregTechHandler$1.run(GregTechHandler.java:103)
+	at ru.lionzxy.damagetweaker.mods.GregTechHandler$3.run(GregTechHandler.java:127)
+	at ru.lionzxy.damagetweaker.utils.UndoableAction.apply(UndoableAction.java:29)
+	at minetweaker.runtime.MTTweaker.apply(MTTweaker.java:70)
+	at minetweaker.MineTweakerAPI.apply(MineTweakerAPI.java:169)
+GT_Server: Loaded Special Save Files
+WARNING: Recipe has more than the maximum amount of Output ItemStacks!
+	at ru.lionzxy.damagetweaker.mods.GregTechHandler$5.run(GregTechHandler.java:163)
+	at ru.lionzxy.damagetweaker.utils.UndoableAction.apply(UndoableAction.java:29)
+	at minetweaker.runtime.MTTweaker.apply(MTTweaker.java:70)
+	at minetweaker.MineTweakerAPI.apply(MineTweakerAPI.java:169)
+	at ru.lionzxy.damagetweaker.mods.GregTechHandler.addCustomRecipe(GregTechHandler.java:177)
+WARNING: Recipe has more than the maximum amount of Output ItemStacks!
+	at ru.lionzxy.damagetweaker.mods.GregTechHandler$5.run(GregTechHandler.java:163)
+	at ru.lionzxy.damagetweaker.utils.UndoableAction.apply(UndoableAction.java:29)
+	at minetweaker.runtime.MTTweaker.apply(MTTweaker.java:70)
+	at minetweaker.MineTweakerAPI.apply(MineTweakerAPI.java:169)
+	at ru.lionzxy.damagetweaker.mods.GregTechHandler.addCustomRecipe(GregTechHandler.java:177)
+GT_API: Cleaning up all OreDict Crafting Recipes, which have an empty List in them, since they are never meeting any Condition.
+WARNING: Recipe has more than the maximum amount of Output ItemStacks!
+	at ru.lionzxy.damagetweaker.mods.GregTechHandler$5.run(GregTechHandler.java:163)
+	at ru.lionzxy.damagetweaker.utils.UndoableAction.apply(UndoableAction.java:29)
+	at minetweaker.runtime.MTTweaker.apply(MTTweaker.java:70)
+	at minetweaker.MineTweakerAPI.apply(MineTweakerAPI.java:169)
+	at ru.lionzxy.damagetweaker.mods.GregTechHandler.addCustomRecipe(GregTechHandler.java:177)
+WARNING: Recipe has more than the maximum amount of Output ItemStacks!
+	at ru.lionzxy.damagetweaker.mods.GregTechHandler$5.run(GregTechHandler.java:163)
+	at ru.lionzxy.damagetweaker.utils.UndoableAction.apply(UndoableAction.java:29)
+	at minetweaker.runtime.MTTweaker.apply(MTTweaker.java:70)
+	at minetweaker.MineTweakerAPI.apply(MineTweakerAPI.java:169)
+	at ru.lionzxy.damagetweaker.mods.GregTechHandler.addCustomRecipe(GregTechHandler.java:177)

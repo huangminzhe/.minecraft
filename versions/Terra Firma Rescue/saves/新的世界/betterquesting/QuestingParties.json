@@ -1,0 +1,20 @@
+{
+  "parties:9": {
+    "0:10": {
+      "members:9": {
+        "0:10": {
+          "uuid:8": "081c3fe1-1006-49b3-ab3b-95ef9152cc86",
+          "status:8": "OWNER"
+        }
+      },
+      "partyID:3": 0,
+      "properties:10": {
+        "betterquesting:10": {
+          "partySingleReward:1": 0,
+          "name:8": "Lin",
+          "partyShareLives:1": 0
+        }
+      }
+    }
+  }
+}

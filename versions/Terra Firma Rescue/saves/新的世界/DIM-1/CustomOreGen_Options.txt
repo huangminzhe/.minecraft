@@ -1,0 +1,11 @@
+#Custom Ore Generation 1.2.26 Config Options
+#Sat Feb 22 14:30:16 CST 2025
+drawWireframes=true
+oreSize=1.0
+advOptions=false
+COGActive=false
+oreFreq=1.0
+deferredPopulationRange=32.0
+debugMode=false
+vanillaOreGen=true
+debugDist=false

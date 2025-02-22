@@ -37,3 +37,136 @@ GT_Mod: =======================
 GT_Mod: PostInit-Phase started!
 GT_Mod: PostInit-Phase finished!
 GT_Mod: ========================
+============================
+Outputting Unknown Materials
+============================
+oreNickelFlake
+gemFlawedBeryl
+gemNormal
+oreCookedLimonite
+dustThermite
+ingotDemonic
+gemFlawlessBeryl
+plateBlueOrRedSteel
+gemExquisiteBeryl
+stoneAnyQuartz
+gemBeryl
+oreSilverFlake
+gemChippedBeryl
+ingotStoneBrick
+============================
+============================
+Outputting Colors of unknown Materials
+============================
+Beryl  -  RGB: 31, 67, 93  -  ²ÔÓñ; 
+Beryl  -  RGB: 45, 79, 102  -  ÎÞè¦µÄ²ÔÓñ; 
+Beryl  -  RGB: 85, 96, 104  -  ÆÆÁÑµÄ²ÔÓñ; 
+Beryl  -  RGB: 89, 107, 119  -  Î¢è¦µÄ²ÔÓñ; 
+Beryl  -  RGB: 72, 103, 123  -  ¾«ÃÀµÄ²ÔÓñ; 
+BlueOrRedSteel  -  RGB: 107, 4, 2  -  ºì¸Ö°å; 
+BlueOrRedSteel  -  RGB: 63, 77, 109  -  À¶¸Ö°å; 
+BlueOrRedSteel  -  RGB: 41, 79, 142  -  À¶¸Ö°å; 
+BlueOrRedSteel  -  RGB: 111, 44, 45  -  ºì¸Ö°å; 
+NickelFlake  -  RGB: 42, 47, 34  -  ÄøÆ¬; 
+NickelFlake  -  RGB: 41, 48, 34  -  ÄøÐ¡¿é; 
+Satinspar  -  RGB: 118, 113, 94  -  ÌìÈ»¼î; 
+Tourmaline  -  RGB: 95, 92, 94  -  ÆÆÁÑµÄ±Ìçô; 
+Tourmaline  -  RGB: 108, 103, 105  -  Î¢è¦µÄ±Ìçô; 
+Tourmaline  -  RGB: 62, 64, 64  -  ±Ìçô; 
+Tourmaline  -  RGB: 75, 72, 73  -  ÎÞè¦µÄ±Ìçô; 
+Tourmaline  -  RGB: 98, 94, 96  -  ¾«ÃÀµÄ±Ìçô; 
+Normal  -  RGB: 31, 67, 93  -  ²ÔÓñ; 
+Normal  -  RGB: 104, 42, 37  -  Âêè§; 
+Normal  -  RGB: 62, 64, 64  -  ±Ìçô; 
+Normal  -  RGB: 66, 86, 46  -  ôä´ä; 
+Normal  -  RGB: 23, 59, 119  -  ±ÌÓñ; 
+Normal  -  RGB: 101, 19, 132  -  ×Ï¾§; 
+Normal  -  RGB: 79, 85, 101  -  µ°°×Ê¯; 
+Normal  -  RGB: 105, 18, 12  -  ÁñÊ¯; 
+Normal  -  RGB: 88, 125, 142  -  ×êÊ¯; 
+Normal  -  RGB: 18, 106, 44  -  ÂÌ±¦Ê¯; 
+Normal  -  RGB: 109, 66, 50  -  »ÆÓñ; 
+Normal  -  RGB: 105, 17, 18  -  ºì±¦Ê¯; 
+Normal  -  RGB: 30, 37, 149  -  À¶±¦Ê¯; 
+Jet  -  RGB: 30, 32, 30  -  »ÔÌà¿ó; 
+Dark  -  RGB: 22, 20, 19  -  ÑÌÑ¬Ê¯Ó¢; 
+Selenite  -  RGB: 110, 109, 93  -  ¸õÌú¿ó; 
+Agate  -  RGB: 111, 52, 48  -  ÎÞè¦µÄÂêè§; 
+Agate  -  RGB: 104, 42, 37  -  Âêè§; 
+Agate  -  RGB: 128, 98, 96  -  Î¢è¦µÄÂêè§; 
+Agate  -  RGB: 114, 94, 93  -  ÆÆÁÑµÄÂêè§; 
+Agate  -  RGB: 129, 75, 71  -  ¾«ÃÀµÄÂêè§; 
+Thermite  -  RGB: 149, 134, 117  -  Thermite; 
+Microcline  -  RGB: 47, 53, 52  -  ÈíÃÌ¿ó; 
+CookedLimonite  -  RGB: 25, 14, 9  -  ¸»¼¯ÊìºÖÌú¿ó; 
+CookedLimonite  -  RGB: 12, 5, 1  -  ÊìºÖÌú¿ó; 
+CookedLimonite  -  RGB: 12, 5, 1  -  Ð¡ÐÍÊìºÖÌú¿ó; 
+CookedLimonite  -  RGB: 23, 17, 13  -  Æ¶ñ¤ÊìºÖÌú¿ó; 
+Demonic  -  RGB: 69, 54, 92  -  Ä§»¯¶§; 
+Sylvite  -  RGB: 97, 77, 62  -  ¼ØÑÎ; 
+Serpentine  -  RGB: 48, 66, 18  -  ÂÌÓñÊ¯; 
+SilverFlake  -  RGB: 73, 74, 78  -  ÒøÆ¬; 
+SilverFlake  -  RGB: 69, 69, 75  -  ÒøÐ¡¿é; 
+============================
+================================
+Outputting Unknown OreDict Names
+================================
+fruitTreeSaplingRedApple
+bushBerryBunchberry
+CPU2G
+fanSteel
+RAM512M
+earlyBurningBox
+tfcDoor
+fruitTreeSaplingGreenApple
+RAM1G
+earlyBurningBoxLiquid
+fruitTreeSaplingOlive
+turfMoon
+bushBerrySnowberry
+earlyAdvCraftbench
+RAM16G
+CPU32G
+fruitTreeSaplingBanana
+RAM256M
+coilGold
+fruitTreeSapling
+coilAluminum
+bushBerryCranberry
+RAM8G
+RAM4G
+blueOrRedSteelAnvil
+MF2
+MF1
+MF4
+MF3
+coilCopper
+fruitTreeSaplingPeach
+MF6
+MF5
+MF8
+MF7
+CPU8G
+coilTitanium
+bushBerryBlackberry
+CPU4G
+coilIridium
+chipDiamond
+bushBerryGooseberry
+bushBerryRaspberry
+CPU16G
+fruitTreeSaplingOrange
+bushBerry
+bushBerryElderberry
+earlyBoiler
+CPU1G
+fruitTreeSaplingPlum
+bushBerryCloudberry
+RAM2G
+fruitTreeSaplingLemon
+bushBerryStrawberry
+earlyBurningBoxGas
+CPU512M
+bushBerryBlueberry
+fruitTreeSaplingCherry
+================================
