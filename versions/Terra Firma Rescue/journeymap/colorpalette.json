@@ -1,7 +1,7 @@
 var colorpalette={
   "version": 3,
   "name": "JourneyMap调色板",
-  "generated": "Generated using JourneyMap 5.1.4p2 Unlimited for 1.7.10 on Sat Feb 22 15:16:30 CST 2025",
+  "generated": "Generated using JourneyMap 5.1.4p2 Unlimited for 1.7.10 on Sat Feb 22 19:55:28 CST 2025",
   "description": [
     "该文件可用来在资源包发生改变时保持地图颜色的连贯性.",
     "擅自编辑修改会有风险. 你可以通过colorpalette.html 文件查看它.",
@@ -12228,8 +12228,7 @@ var colorpalette={
       "name": "Blue Mahoe Sapling",
       "uid": "gregtech:gt.block.sapling",
       "meta": 3,
-      "color": "#408f40",
-      "alpha": 0.003921569
+      "color": "#408f40"
     },
     {
       "name": "Blue Mahoe Slab",
@@ -12721,8 +12720,7 @@ var colorpalette={
       "name": "Cinnamon Sapling",
       "uid": "gregtech:gt.block.sapling",
       "meta": 5,
-      "color": "#3b710a",
-      "alpha": 0.003921569
+      "color": "#3b710a"
     },
     {
       "name": "Cinnamon Slab",
@@ -12789,8 +12787,7 @@ var colorpalette={
       "name": "Coconut Sapling",
       "uid": "gregtech:gt.block.sapling",
       "meta": 6,
-      "color": "#2f6b37",
-      "alpha": 0.003921569
+      "color": "#2f6b37"
     },
     {
       "name": "Coconut Slab",
@@ -25107,8 +25104,7 @@ var colorpalette={
       "name": "Enhanced Building Guide",
       "uid": "OpenBlocks:builder_guide",
       "meta": 0,
-      "color": "#cccccc",
-      "alpha": 0.58431375
+      "color": "#cccccc"
     },
     {
       "name": "Extinguished Torch",
@@ -25807,8 +25803,7 @@ var colorpalette={
       "name": "Hazel Sapling",
       "uid": "gregtech:gt.block.sapling",
       "meta": 4,
-      "color": "#2a6b0f",
-      "alpha": 0.003921569
+      "color": "#2a6b0f"
     },
     {
       "name": "Hazel Slab",
@@ -25826,8 +25821,7 @@ var colorpalette={
       "name": "Heavy Oil",
       "uid": "gregtech:gt.block.fluid.oil.heavy",
       "meta": 0,
-      "color": "#000000",
-      "alpha": 0.972549
+      "color": "#000000"
     },
     {
       "name": "Hexalily",
@@ -26257,8 +26251,7 @@ var colorpalette={
       "name": "Light Oil",
       "uid": "gregtech:gt.block.fluid.oil.light",
       "meta": 0,
-      "color": "#000000",
-      "alpha": 0.972549
+      "color": "#000000"
     },
     {
       "name": "Light Prismarine",
@@ -26896,8 +26889,7 @@ var colorpalette={
       "name": "Maple Sapling",
       "uid": "gregtech:gt.block.sapling",
       "meta": 1,
-      "color": "#308b1e",
-      "alpha": 0.003921569
+      "color": "#308b1e"
     },
     {
       "name": "Maple Slab",
@@ -28099,8 +28091,7 @@ var colorpalette={
       "name": "Rainbowood Sapling",
       "uid": "gregtech:gt.block.sapling",
       "meta": 7,
-      "color": "#918396",
-      "alpha": 0.003921569
+      "color": "#918396"
     },
     {
       "name": "Rainbowood Slab",
@@ -28118,8 +28109,7 @@ var colorpalette={
       "name": "Raw Oil",
       "uid": "gregtech:gt.block.fluid.oil.medium",
       "meta": 0,
-      "color": "#000000",
-      "alpha": 0.972549
+      "color": "#000000"
     },
     {
       "name": "Red Asphalt",
@@ -30452,8 +30442,7 @@ var colorpalette={
       "name": "Rubber Sapling",
       "uid": "gregtech:gt.block.sapling",
       "meta": 0,
-      "color": "#314a00",
-      "alpha": 0.003921569
+      "color": "#314a00"
     },
     {
       "name": "Rubber Wood Beam",
@@ -31639,8 +31628,7 @@ var colorpalette={
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 60,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
@@ -31688,15 +31676,13 @@ var colorpalette={
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 150,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 160,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
@@ -32140,15 +32126,13 @@ var colorpalette={
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8000,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8003,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
@@ -32202,8 +32186,7 @@ var colorpalette={
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8019,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
@@ -32227,22 +32210,19 @@ var colorpalette={
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8101,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8102,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8103,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
@@ -32260,8 +32240,7 @@ var colorpalette={
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8205,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
@@ -32303,8 +32282,7 @@ var colorpalette={
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8234,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
@@ -32538,22 +32516,19 @@ var colorpalette={
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8334,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8336,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8337,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
@@ -32571,43 +32546,37 @@ var colorpalette={
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8342,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8346,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8347,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8348,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8349,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8365,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
@@ -32649,64 +32618,55 @@ var colorpalette={
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8389,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8390,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8393,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8394,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8395,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8396,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8397,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8398,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8399,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
@@ -32736,8 +32696,7 @@ var colorpalette={
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8420,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
@@ -32881,8 +32840,7 @@ var colorpalette={
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8445,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
@@ -32936,8 +32894,7 @@ var colorpalette={
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 8457,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
@@ -33063,22 +33020,19 @@ var colorpalette={
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 9005,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 9006,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 9100,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
@@ -33150,8 +33104,7 @@ var colorpalette={
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 9112,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
@@ -33307,15 +33260,13 @@ var colorpalette={
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 9139,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 9140,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
@@ -33333,8 +33284,7 @@ var colorpalette={
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 9144,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
@@ -33364,8 +33314,7 @@ var colorpalette={
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 9149,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
@@ -33413,8 +33362,7 @@ var colorpalette={
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 9158,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
@@ -33486,8 +33434,7 @@ var colorpalette={
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 9180,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
@@ -33673,50 +33620,43 @@ var colorpalette={
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 9716,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 9717,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 9718,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 9780,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 9791,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 9793,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
       "uid": "gregtech:gt.meta.ore.normal.default",
       "meta": 9851,
-      "color": "#b8b8b8",
-      "alpha": 0.99215686
+      "color": "#b8b8b8"
     },
     {
       "name": "Unknown Ore",
@@ -33734,8 +33674,7 @@ var colorpalette={
       "name": "Very Heavy Oil",
       "uid": "gregtech:gt.block.fluid.oil.extraheavy",
       "meta": 0,
-      "color": "#000000",
-      "alpha": 0.972549
+      "color": "#000000"
     },
     {
       "name": "Viola Calaminaria",
@@ -33889,8 +33828,7 @@ var colorpalette={
       "name": "Willow Sapling",
       "uid": "gregtech:gt.block.sapling",
       "meta": 2,
-      "color": "#62981f",
-      "alpha": 0.003921569
+      "color": "#62981f"
     },
     {
       "name": "Willow Slab",
@@ -34567,8 +34505,7 @@ var colorpalette={
       "name": "三叶胶木苗",
       "uid": "tfctech:HeveaS",
       "meta": 0,
-      "color": "#37681b",
-      "alpha": 0.9529412
+      "color": "#37681b"
     },
     {
       "name": "下界圆石",
@@ -34858,8 +34795,7 @@ var colorpalette={
       "name": "乳草",
       "uid": "terrafirmacraft:Flowers",
       "meta": 2,
-      "color": "#82993a",
-      "alpha": 0.98039216
+      "color": "#82993a"
     },
     {
       "name": "二氧化碳净化器",
@@ -35527,8 +35463,7 @@ var colorpalette={
       "name": "充能虚空石",
       "uid": "chisel:voidstone2",
       "meta": 0,
-      "color": "#442251",
-      "alpha": 0.84313726
+      "color": "#442251"
     },
     {
       "name": "充能虚空石",
@@ -35864,8 +35799,7 @@ var colorpalette={
       "name": "写字台",
       "uid": "Forestry:core",
       "meta": 1,
-      "color": "#8a4f1f",
-      "alpha": 0.99607843
+      "color": "#8a4f1f"
     },
     {
       "name": "农场方块",
@@ -36165,8 +36099,7 @@ var colorpalette={
       "name": "冰墙",
       "uid": "Railcraft:wall.alpha",
       "meta": 4,
-      "color": "#7dadff",
-      "alpha": 0.62352943
+      "color": "#7dadff"
     },
     {
       "name": "冰柱",
@@ -39101,113 +39034,97 @@ var colorpalette={
       "name": "大型六角金属镀层块",
       "uid": "chisel:hexLargePlating",
       "meta": 0,
-      "color": "#6c6667",
-      "alpha": 0.972549
+      "color": "#6c6667"
     },
     {
       "name": "大型六角金属镀层块",
       "uid": "chisel:hexLargePlating",
       "meta": 1,
-      "color": "#6c6667",
-      "alpha": 0.972549
+      "color": "#6c6667"
     },
     {
       "name": "大型六角金属镀层块",
       "uid": "chisel:hexLargePlating",
       "meta": 2,
-      "color": "#6c6667",
-      "alpha": 0.972549
+      "color": "#6c6667"
     },
     {
       "name": "大型六角金属镀层块",
       "uid": "chisel:hexLargePlating",
       "meta": 3,
-      "color": "#6c6667",
-      "alpha": 0.972549
+      "color": "#6c6667"
     },
     {
       "name": "大型六角金属镀层块",
       "uid": "chisel:hexLargePlating",
       "meta": 4,
-      "color": "#6c6667",
-      "alpha": 0.972549
+      "color": "#6c6667"
     },
     {
       "name": "大型六角金属镀层块",
       "uid": "chisel:hexLargePlating",
       "meta": 5,
-      "color": "#6c6667",
-      "alpha": 0.972549
+      "color": "#6c6667"
     },
     {
       "name": "大型六角金属镀层块",
       "uid": "chisel:hexLargePlating",
       "meta": 6,
-      "color": "#6c6667",
-      "alpha": 0.972549
+      "color": "#6c6667"
     },
     {
       "name": "大型六角金属镀层块",
       "uid": "chisel:hexLargePlating",
       "meta": 7,
-      "color": "#6c6667",
-      "alpha": 0.972549
+      "color": "#6c6667"
     },
     {
       "name": "大型六角金属镀层块",
       "uid": "chisel:hexLargePlating",
       "meta": 8,
-      "color": "#6c6667",
-      "alpha": 0.972549
+      "color": "#6c6667"
     },
     {
       "name": "大型六角金属镀层块",
       "uid": "chisel:hexLargePlating",
       "meta": 9,
-      "color": "#6c6667",
-      "alpha": 0.972549
+      "color": "#6c6667"
     },
     {
       "name": "大型六角金属镀层块",
       "uid": "chisel:hexLargePlating",
       "meta": 10,
-      "color": "#6c6667",
-      "alpha": 0.972549
+      "color": "#6c6667"
     },
     {
       "name": "大型六角金属镀层块",
       "uid": "chisel:hexLargePlating",
       "meta": 11,
-      "color": "#6c6667",
-      "alpha": 0.972549
+      "color": "#6c6667"
     },
     {
       "name": "大型六角金属镀层块",
       "uid": "chisel:hexLargePlating",
       "meta": 12,
-      "color": "#6c6667",
-      "alpha": 0.972549
+      "color": "#6c6667"
     },
     {
       "name": "大型六角金属镀层块",
       "uid": "chisel:hexLargePlating",
       "meta": 13,
-      "color": "#6c6667",
-      "alpha": 0.972549
+      "color": "#6c6667"
     },
     {
       "name": "大型六角金属镀层块",
       "uid": "chisel:hexLargePlating",
       "meta": 14,
-      "color": "#6c6667",
-      "alpha": 0.972549
+      "color": "#6c6667"
     },
     {
       "name": "大型六角金属镀层块",
       "uid": "chisel:hexLargePlating",
       "meta": 15,
-      "color": "#6c6667",
-      "alpha": 0.972549
+      "color": "#6c6667"
     },
     {
       "name": "大型按钮",
@@ -40241,8 +40158,7 @@ var colorpalette={
       "name": "工业工艺方块",
       "uid": "chisel:technical3",
       "meta": 0,
-      "color": "#595f5e",
-      "alpha": 0.99607843
+      "color": "#595f5e"
     },
     {
       "name": "工业工艺方块",
@@ -40866,8 +40782,7 @@ var colorpalette={
       "name": "建筑指导仪",
       "uid": "OpenBlocks:guide",
       "meta": 0,
-      "color": "#cccccc",
-      "alpha": 0.58431375
+      "color": "#cccccc"
     },
     {
       "name": "建筑泡沫",
@@ -41103,8 +41018,7 @@ var colorpalette={
       "name": "微波炉",
       "uid": "mo:microwave",
       "meta": 0,
-      "color": "#3e4f51",
-      "alpha": 0.9411765
+      "color": "#3e4f51"
     },
     {
       "name": "怪物粉碎机",
@@ -41122,8 +41036,7 @@ var colorpalette={
       "name": "悬浮沙漏",
       "uid": "Botania:hourglass",
       "meta": 0,
-      "color": "#b1bdff",
-      "alpha": 0.2
+      "color": "#b1bdff"
     },
     {
       "name": "悬铃原木",
@@ -47813,8 +47726,7 @@ var colorpalette={
       "name": "橡胶汲取器",
       "uid": "tfctech:LatexExtractor",
       "meta": 0,
-      "color": "#767676",
-      "alpha": 0.9764706
+      "color": "#767676"
     },
     {
       "name": "武器架",
@@ -48345,8 +48257,7 @@ var colorpalette={
       "name": "沙岩砖台阶",
       "uid": "Railcraft:slab",
       "meta": 4,
-      "color": "#7dadff",
-      "alpha": 0.62352943
+      "color": "#7dadff"
     },
     {
       "name": "沙岩砖台阶",
@@ -48616,8 +48527,7 @@ var colorpalette={
       "name": "沙岩砖楼梯",
       "uid": "Railcraft:stair",
       "meta": 4,
-      "color": "#7dadff",
-      "alpha": 0.62352943
+      "color": "#7dadff"
     },
     {
       "name": "沙岩砖楼梯",
@@ -49834,50 +49744,43 @@ var colorpalette={
       "name": "流水石",
       "uid": "chisel:waterstone",
       "meta": 0,
-      "color": "#7e7e7e",
-      "alpha": 0.7764706
+      "color": "#7e7e7e"
     },
     {
       "name": "流水石",
       "uid": "chisel:waterstone",
       "meta": 1,
-      "color": "#212121",
-      "alpha": 0.76862746
+      "color": "#212121"
     },
     {
       "name": "流水石",
       "uid": "chisel:waterstone",
       "meta": 2,
-      "color": "#7f7f7f",
-      "alpha": 0.76862746
+      "color": "#7f7f7f"
     },
     {
       "name": "流水石",
       "uid": "chisel:waterstone",
       "meta": 3,
-      "color": "#6a6a6a",
-      "alpha": 0.69411767
+      "color": "#6a6a6a"
     },
     {
       "name": "流水石",
       "uid": "chisel:waterstone",
       "meta": 4,
-      "color": "#818181",
-      "alpha": 0.9254902
+      "color": "#818181"
     },
     {
       "name": "流水石",
       "uid": "chisel:waterstone",
       "meta": 5,
-      "color": "#737373",
-      "alpha": 0.8666667
+      "color": "#737373"
     },
     {
       "name": "流水石",
       "uid": "chisel:waterstone",
       "meta": 6,
-      "color": "#858585",
-      "alpha": 0.93333334
+      "color": "#858585"
     },
     {
       "name": "流纹岩",
@@ -50368,8 +50271,7 @@ var colorpalette={
       "name": "液态玻璃",
       "uid": "Forestry:fluid.glass",
       "meta": 0,
-      "color": "#a3a3a3",
-      "alpha": 0.7019608
+      "color": "#a3a3a3"
     },
     {
       "name": "淡水",
@@ -50406,8 +50308,7 @@ var colorpalette={
       "name": "淡灰色微光蘑菇",
       "uid": "Botania:mushroom",
       "meta": 8,
-      "color": "#b5a99c",
-      "alpha": 0.99607843
+      "color": "#b5a99c"
     },
     {
       "name": "淡灰色染色玻璃",
@@ -51404,8 +51305,7 @@ var colorpalette={
       "name": "热冷却液",
       "uid": "IC2:fluidHotCoolant",
       "meta": 0,
-      "color": "#b42834",
-      "alpha": 0.7764706
+      "color": "#b42834"
     },
     {
       "name": "热带乳草",
@@ -51502,50 +51402,43 @@ var colorpalette={
       "name": "熔岩石",
       "uid": "chisel:lavastone",
       "meta": 0,
-      "color": "#8f776c",
-      "alpha": 0.85882354
+      "color": "#8f776c"
     },
     {
       "name": "熔岩石",
       "uid": "chisel:lavastone",
       "meta": 1,
-      "color": "#41271b",
-      "alpha": 0.85882354
+      "color": "#41271b"
     },
     {
       "name": "熔岩石",
       "uid": "chisel:lavastone",
       "meta": 2,
-      "color": "#8d7a72",
-      "alpha": 0.79607844
+      "color": "#8d7a72"
     },
     {
       "name": "熔岩石",
       "uid": "chisel:lavastone",
       "meta": 3,
-      "color": "#76665f",
-      "alpha": 0.7372549
+      "color": "#76665f"
     },
     {
       "name": "熔岩石",
       "uid": "chisel:lavastone",
       "meta": 4,
-      "color": "#867f7d",
-      "alpha": 0.93333334
+      "color": "#867f7d"
     },
     {
       "name": "熔岩石",
       "uid": "chisel:lavastone",
       "meta": 5,
-      "color": "#757575",
-      "alpha": 0.85882354
+      "color": "#757575"
     },
     {
       "name": "熔岩石",
       "uid": "chisel:lavastone",
       "meta": 6,
-      "color": "#858585",
-      "alpha": 0.93333334
+      "color": "#858585"
     },
     {
       "name": "熔岩石",
@@ -51665,8 +51558,7 @@ var colorpalette={
       "name": "牡丹",
       "uid": "minecraft:double_plant",
       "meta": 5,
-      "color": "#85868e",
-      "alpha": 0.9882353
+      "color": "#85868e"
     },
     {
       "name": "物品卸载机",
@@ -51758,8 +51650,7 @@ var colorpalette={
       "name": "物质重组仓",
       "uid": "mo:replicator",
       "meta": 0,
-      "color": "#404b4e",
-      "alpha": 0.90588236
+      "color": "#404b4e"
     },
     {
       "name": "狂野之鼓",
@@ -53629,8 +53520,7 @@ var colorpalette={
       "name": "硫磺",
       "uid": "terrafirmacraft:Sulfur",
       "meta": 0,
-      "color": "#5c5927",
-      "alpha": 0.972549
+      "color": "#5c5927"
     },
     {
       "name": "硫镍钯铂矿",
@@ -54123,8 +54013,7 @@ var colorpalette={
       "name": "秋麒麟",
       "uid": "terrafirmacraft:Flora",
       "meta": 0,
-      "color": "#4a5b10",
-      "alpha": 0.9607843
+      "color": "#4a5b10"
     },
     {
       "name": "种子油",
@@ -54517,8 +54406,7 @@ var colorpalette={
       "name": "粉色微光蘑菇",
       "uid": "Botania:mushroom",
       "meta": 6,
-      "color": "#e09188",
-      "alpha": 0.9882353
+      "color": "#e09188"
     },
     {
       "name": "粉色染色粘土",
@@ -55788,8 +55676,7 @@ var colorpalette={
       "name": "线",
       "uid": "minecraft:tripwire",
       "meta": 0,
-      "color": "#818181",
-      "alpha": 0.41960785
+      "color": "#818181"
     },
     {
       "name": "线缆",
@@ -56384,8 +56271,7 @@ var colorpalette={
       "name": "胶质网",
       "uid": "ExtraBees:ectoplasm",
       "meta": 0,
-      "color": "#6dbd85",
-      "alpha": 0.9882353
+      "color": "#6dbd85"
     },
     {
       "name": "能源元件",
@@ -56507,8 +56393,7 @@ var colorpalette={
       "name": "自动铁砧",
       "uid": "OpenBlocks:autoanvil",
       "meta": 0,
-      "color": "#404040",
-      "alpha": 0.99607843
+      "color": "#404040"
     },
     {
       "name": "自动附魔台",
@@ -56658,8 +56543,7 @@ var colorpalette={
       "name": "花岗石圆石墙",
       "uid": "terrafirmacraft:WallCobbleIgIn",
       "meta": 0,
-      "color": "#a4a29d",
-      "alpha": 0.99215686
+      "color": "#a4a29d"
     },
     {
       "name": "花岗石墙",
@@ -56677,8 +56561,7 @@ var colorpalette={
       "name": "花岗石砖墙",
       "uid": "terrafirmacraft:WallBrickIgIn",
       "meta": 0,
-      "color": "#adaaa5",
-      "alpha": 0.99215686
+      "color": "#adaaa5"
     },
     {
       "name": "花床",
@@ -58231,15 +58114,13 @@ var colorpalette={
       "name": "蒸汽",
       "uid": "IC2:fluidSteam",
       "meta": 0,
-      "color": "#bbbbbb",
-      "alpha": 0.95686275
+      "color": "#bbbbbb"
     },
     {
       "name": "蒸汽",
       "uid": "Railcraft:fluid.steam",
       "meta": 0,
-      "color": "#b1b1b1",
-      "alpha": 0.7490196
+      "color": "#b1b1b1"
     },
     {
       "name": "蒸汽动能发生机",
@@ -58831,8 +58712,7 @@ var colorpalette={
       "name": "蝶乳草",
       "uid": "terrafirmacraft:Flowers",
       "meta": 4,
-      "color": "#8f7819",
-      "alpha": 0.9764706
+      "color": "#8f7819"
     },
     {
       "name": "血迹",
@@ -58934,15 +58814,13 @@ var colorpalette={
       "name": "警告标志",
       "uid": "chisel:warningSign",
       "meta": 0,
-      "color": "#c7c405",
-      "alpha": 0.9882353
+      "color": "#c7c405"
     },
     {
       "name": "警告标志",
       "uid": "chisel:warningSign",
       "meta": 1,
-      "color": "#197a0d",
-      "alpha": 0.9764706
+      "color": "#197a0d"
     },
     {
       "name": "警告标志",
@@ -58978,8 +58856,7 @@ var colorpalette={
       "name": "警告标志",
       "uid": "chisel:warningSign",
       "meta": 7,
-      "color": "#bc931c",
-      "alpha": 0.9882353
+      "color": "#bc931c"
     },
     {
       "name": "警告标志",
@@ -59003,15 +58880,13 @@ var colorpalette={
       "name": "警告标志",
       "uid": "chisel:warningSign",
       "meta": 11,
-      "color": "#9b9b9b",
-      "alpha": 0.9411765
+      "color": "#9b9b9b"
     },
     {
       "name": "警告标志",
       "uid": "chisel:warningSign",
       "meta": 12,
-      "color": "#b5b5b5",
-      "alpha": 0.9254902
+      "color": "#b5b5b5"
     },
     {
       "name": "警告标志",
@@ -59265,8 +59140,7 @@ var colorpalette={
       "name": "辉长岩圆石墙",
       "uid": "terrafirmacraft:WallCobbleIgIn",
       "meta": 2,
-      "color": "#797978",
-      "alpha": 0.99607843
+      "color": "#797978"
     },
     {
       "name": "辉长岩墙",
@@ -59284,8 +59158,7 @@ var colorpalette={
       "name": "辉长岩砖墙",
       "uid": "terrafirmacraft:WallBrickIgIn",
       "meta": 2,
-      "color": "#7a7a7a",
-      "alpha": 0.99607843
+      "color": "#7a7a7a"
     },
     {
       "name": "辊压机",
@@ -59309,8 +59182,7 @@ var colorpalette={
       "name": "过热蒸汽",
       "uid": "IC2:fluidSuperheatedSteam",
       "meta": 0,
-      "color": "#c9d0d0",
-      "alpha": 0.95686275
+      "color": "#c9d0d0"
     },
     {
       "name": "运动传感器",
@@ -59383,8 +59255,7 @@ var colorpalette={
       "name": "道路标线",
       "uid": "chisel:road_line",
       "meta": 1,
-      "color": "#ac9843",
-      "alpha": 0.972549
+      "color": "#ac9843"
     },
     {
       "name": "道路标线",
@@ -61015,8 +60886,7 @@ var colorpalette={
       "name": "铝土矿",
       "uid": "tfctech:Ore4",
       "meta": 0,
-      "color": "#965d48",
-      "alpha": 0.627451
+      "color": "#965d48"
     },
     {
       "name": "铝块",
@@ -61382,8 +61252,7 @@ var colorpalette={
       "name": "闪长岩圆石墙",
       "uid": "terrafirmacraft:WallCobbleIgIn",
       "meta": 1,
-      "color": "#7f7f7f",
-      "alpha": 0.99607843
+      "color": "#7f7f7f"
     },
     {
       "name": "闪长岩墙",
@@ -61431,8 +61300,7 @@ var colorpalette={
       "name": "闪长岩砖墙",
       "uid": "terrafirmacraft:WallBrickIgIn",
       "meta": 1,
-      "color": "#828282",
-      "alpha": 0.99607843
+      "color": "#828282"
     },
     {
       "name": "闪长岩砖楼梯",
@@ -63006,8 +62874,7 @@ var colorpalette={
       "name": "青色微光蘑菇",
       "uid": "Botania:mushroom",
       "meta": 9,
-      "color": "#42ad9e",
-      "alpha": 0.9843137
+      "color": "#42ad9e"
     },
     {
       "name": "青色染色玻璃",
@@ -63663,8 +63530,7 @@ var colorpalette={
       "name": "魔法铅笔",
       "uid": "OpenBlocks:imaginary",
       "meta": 0,
-      "color": "#000000",
-      "alpha": 0.12156863
+      "color": "#000000"
     },
     {
       "name": "魔源风箱",

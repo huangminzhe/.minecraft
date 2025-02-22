@@ -4,14 +4,14 @@ fov:0.75
 gamma:1.0
 saturation:0.0
 renderDistance:16
-guiScale:0
+guiScale:3
 particles:0
 bobView:true
 anaglyph3d:false
 advancedOpengl:false
 maxFps:150
 fboEnable:true
-difficulty:3
+difficulty:0
 fancyGraphics:true
 ao:2
 clouds:true
@@ -27,7 +27,7 @@ snooperEnabled:true
 fullscreen:false
 enableVsync:false
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 showCape:true
 touchscreen:false
@@ -138,7 +138,7 @@ key_BetterFps:88
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
-soundCategory_weather:1.0
+soundCategory_weather:0.1056338
 soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0

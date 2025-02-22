@@ -1,0 +1,17 @@
+{
+  "id": "salt_867,149,-11993",
+  "name": "salt",
+  "icon": "waypoint-normal.png",
+  "x": 867,
+  "y": 149,
+  "z": -11993,
+  "r": 130,
+  "g": 207,
+  "b": 27,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}
