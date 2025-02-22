@@ -1,0 +1,40 @@
+tile.BellowsDriver.name=Bellows Driver
+tile.SteamBoiler.name=Steam Boiler
+tile.PotteryKiln.name=Pottery Kiln
+tile.PotteryKilnChamber.name=Pottery Kiln Chamber
+tile.WaterFilter.name=Water Filter
+
+item.BellowsDriver.name=Bellows Driver
+item.SteamBoiler.name=Steam Boiler
+
+item.bismuthBronzeShield.name=Bismuth Bronze Shield
+item.blackBronzeShield.name=Black Bronze Shield
+item.blackSteelShield.name=Black Steel Shield
+item.blueSteelShield.name=Blue Steel Shield
+item.bronzeShield.name=Bronze Shield
+item.copperShield.name=Copper Shield
+item.wroughtIronShield.name=Wrought Iron Shield
+item.redSteelShield.name=Red Steel Shield
+item.steelShield.name=Steel Shield
+item.woodenShield.name=Wooden Shield
+
+item.shepherdStaff.name=Shepherd Staff
+
+container.PotteryKiln.name=Pottery Kiln
+container.PotteryKilnChamber.name=Pottery Kiln Chamber
+
+gui.plans.metalshield=Metal Shield
+
+gui.seconds delay=Seconds Delay
+gui.Running=Fuel:
+gui.Water=|Delay:
+gui.Running=Running
+gui.Hours remaining=Hours Remaining:
+gui.Chamber=Ceramic Chamber:
+gui.Processing=Kiln Processing
+
+gui.steam0=Steam boiler contains fuel and is running well (driver needs to have redstone signal).
+gui.steam1=Steam boiler is running, low fuel.
+gui.steam2=Steam boiler is fueled and ready to work.
+gui.steam3=Steam boiler needs fresh water.
+gui.steam4=Put logs or coal into the kiln.

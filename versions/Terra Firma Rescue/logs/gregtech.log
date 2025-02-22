@@ -1,0 +1,96 @@
+GT_API: ======================
+GT_API: PreInit-Phase started!
+GT_API: Sorting Greg-API to the start of the Mod List for further processing.
+GT_API: PreInit-Phase finished!
+GT_API: =======================
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: ingotManasteel
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: manaPearl
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: manaDiamond
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: livingwoodTwig
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: ingotTerrasteel
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: eternalLifeEssence
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: redstoneRoot
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: ingotElvenElementium
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: elvenPixieDust
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: elvenDragonstone
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: shardPrismarine
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: bPlaceholder
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: bRedString
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: dreamwoodTwig
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: gaiaIngot
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: bEnderAirBottle
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: manaString
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: nuggetManasteel
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: nuggetTerrasteel
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: nuggetElvenElementium
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: livingRoot
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: pebble
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: clothManaweave
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: powderMana
+ERROR: class vazkii.botania.common.item.material.ItemManaResource from the Mod Botania has been registered to the OreDict before being registered as an Item/Block as: MANA_STEEL
+GT_API_POST: ======================
+GT_API_POST: PreInit-Phase started!
+GT_API_POST: Sorting Greg-API-Post to the end of the Mod List for further processing.
+GT_API_POST: PreInit-Phase finished!
+GT_API_POST: =======================
+GT_Mod: ======================
+GT_Mod: PreInit-Phase started!
+GT_Mod: Sorting GregTech to the end of the Mod List for further processing.
+GT_Mod: Increasing general amount of Loot in Dungeon Chests and alike
+GT_Mod: Nerfing Vanilla Tool Durability
+GT_Mod: Removing all original Scrapbox Drops.
+GT_Mod: Adding Scrap with a Weight of 200.0F to the Scrapbox Drops.
+GT_Mod: PreInit-Phase finished!
+GT_Mod: =======================
+GT_DL_Thread: Failed to Connect.
+GT_DL_Thread: Failed downloading Silver Supporter List, using interal List!
+GT_DL_Thread: Failed to Connect.
+GT_DL_Thread: Failed downloading Gold Supporter List, using interal List!
+GT_API: ===================
+GT_API: Init-Phase started!
+GT_API: If the Loading Bar somehow Freezes at this Point, then you definetly ran out of Memory or permgenspace, look at the other Logs to confirm it.
+GT_API: Init-Phase finished!
+GT_API: ====================
+GT_DL_Thread: Failed to Connect.
+GT_API_POST: ===================
+GT_API_POST: Init-Phase started!
+GT_API_POST: Initialize Wood Dictionary.
+GT_API_POST: Init-Phase finished!
+GT_API_POST: ====================
+GT_Mod: ===================
+GT_Mod: Init-Phase started!
+GT_Mod: Registering Books.
+GT_Mod: Scanning Food for the Canning Machine.
+GT_Mod: Init-Phase finished!
+GT_Mod: ====================
+GT_API: =======================
+GT_API: PostInit-Phase started!
+GT_API: If the Loading Bar somehow Freezes at this Point, then you definetly ran out of Memory or permgenspace, look at the other Logs to confirm it.
+GT_API: PostInit-Phase finished!
+GT_API: ========================
+GT_API_POST: =======================
+GT_API_POST: PostInit-Phase started!
+GT_API_POST: PostInit-Phase finished!
+GT_API_POST: ========================
+GT_Mod: =======================
+GT_Mod: PostInit-Phase started!
+GT_Mod: PostInit-Phase finished!
+GT_Mod: Registering Achievements.
+GT_Mod: Adding Loot and changing Vanilla Chests to GT6 Loot Chests
+GT_Mod: Doing Chisel Mod Recipes.
+GT_Mod: Doing IC2-Exp Things.
+GT_Mod: Doing RC Recipes.
+GT_Mod: Doing Forestry Recipes.
+GT_Mod: Doing Binnie Extra Trees Recipes.
+GT_Mod: Doing Binnie Genetics Recipes.
+GT_Mod: Doing Binnie Botany Recipes.
+GT_Mod: Doing Binnie Extra Bees Recipes.
+GT_Mod: Doing AE Recipes.
+GT_Mod: Doing Open Computers Recipes.
+GT_Mod: Doing Botania Recipes.
+GT_Mod: Replacing Vanilla alike Recipes.
+GT_Mod: Copying the Fluid Registry to GT Machines.
+GT_Mod: Copying all of the Forestry Centrifuge/Squeezer Recipes to GT Machines
+GT_Mod: ========================
+GT_Client: Setting up and loading Icon Register for Blocks
+GT_Client: Setting up and loading Icon Register for Items
