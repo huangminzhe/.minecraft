@@ -1,12 +1,12 @@
-[19:54:17] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
-[19:54:17] [Client thread/INFO] [JourneymapClient] initialize ENTER
-[19:54:17] [Client thread/INFO] [PropertiesBase] Loaded CoreProperties from D:\.minecraft\versions\Terra Firma Rescue\journeymap\config\5.1\journeymap.core.config
-[19:54:17] [Client thread/INFO] [PropertiesBase] Loaded FullMapProperties from D:\.minecraft\versions\Terra Firma Rescue\journeymap\config\5.1\journeymap.fullmap.config
-[19:54:17] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties from D:\.minecraft\versions\Terra Firma Rescue\journeymap\config\5.1\journeymap.minimap.config
-[19:54:17] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties2 from D:\.minecraft\versions\Terra Firma Rescue\journeymap\config\5.1\journeymap.minimap2.config
-[19:54:17] [Client thread/INFO] [PropertiesBase] Loaded WebMapProperties from D:\.minecraft\versions\Terra Firma Rescue\journeymap\config\5.1\journeymap.webmap.config
-[19:54:17] [Client thread/INFO] [PropertiesBase] Loaded WaypointProperties from D:\.minecraft\versions\Terra Firma Rescue\journeymap\config\5.1\journeymap.waypoint.config
-[19:54:17] [Client thread/INFO] [?] Version: JourneyMap 5.1.4p2 Unlimited, built with Forge 10.13.4.1558
+[17:20:39] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[17:20:39] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[17:20:39] [Client thread/INFO] [PropertiesBase] Loaded CoreProperties from D:\.minecraft\versions\Terra Firma Rescue\journeymap\config\5.1\journeymap.core.config
+[17:20:39] [Client thread/INFO] [PropertiesBase] Loaded FullMapProperties from D:\.minecraft\versions\Terra Firma Rescue\journeymap\config\5.1\journeymap.fullmap.config
+[17:20:39] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties from D:\.minecraft\versions\Terra Firma Rescue\journeymap\config\5.1\journeymap.minimap.config
+[17:20:39] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties2 from D:\.minecraft\versions\Terra Firma Rescue\journeymap\config\5.1\journeymap.minimap2.config
+[17:20:39] [Client thread/INFO] [PropertiesBase] Loaded WebMapProperties from D:\.minecraft\versions\Terra Firma Rescue\journeymap\config\5.1\journeymap.webmap.config
+[17:20:39] [Client thread/INFO] [PropertiesBase] Loaded WaypointProperties from D:\.minecraft\versions\Terra Firma Rescue\journeymap\config\5.1\journeymap.waypoint.config
+[17:20:39] [Client thread/INFO] [?] Version: JourneyMap 5.1.4p2 Unlimited, built with Forge 10.13.4.1558
 Forge: 10.13.4.1614
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=zh_CN, locale=zh_cn
 Unlimited Features: 
@@ -21,22 +21,22 @@ FullMapProperties{entityIconSetName=2D, showAnimals=true, showMobs=true, showPet
 WaypointProperties{autoHideLabel=true, beaconEnabled=true, boldLabel=false, createDeathpoints=true, fontScale=2, managerEnabled=true, maxDistance=0, name=waypoint, showDistance=true, showName=true, showRotatingBeam=true, showStaticBeam=true, showTexture=true, textureSmall=true}
 WebMapProperties: , enabled=false, port=8080, showMobs=true, showAnimals=true, showVillagers=true, showPets=true, showPlayers=true, showWaypoints=true, entityIconSetName=2D
 CoreProperties{announceMod=true, autoMapPoll=2000, browserPoll=2000, cacheAnimalsData=3100, cacheMobsData=3000, cachePlayerData=1000, cachePlayersData=2000, cacheVillagersData=2200, caveIgnoreGlass=true, isUpdateCheckEnabled=true, renderDelay=2, hideSneakingEntities=true, logLevel=INFO, mapAntialiasing=true, mapBathymetry=false, mapCaveLighting=true, mapCrops=true, mapPlants=false, mapPlantShadows=false, mapSurfaceAboveCaves=true, tileHighDisplayQuality=true, mapTransparency=true, maxAnimalsData=32, maxMobsData=32, maxPlayersData=32, maxVillagersData=32, optionsManagerViewed=, radarLateralDistance=64, radarVerticalDistance=16, recordCacheStats=false, renderOverlayEventTypeName=ALL, renderOverlayPreEvent=true, renderDistanceCaveMin=3, renderDistanceCaveMax=3, renderDistanceSurfaceMin=4, renderDistanceSurfaceMax=7, revealShape=圆形, themeName=Victorian, tileRenderType=1}
-[19:54:17] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg �ms
-[19:55:06] [Client thread/INFO] [JourneymapClient] postInitialize ENTER
-[19:55:06] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.ChatEventHandler registered in MinecraftForgeBus
-[19:55:06] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.StateTickHandler registered in FMLCommonHandlerBus
-[19:55:06] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.WorldEventHandler registered in MinecraftForgeBus
-[19:55:06] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.ChunkUpdateHandler registered in MinecraftForgeBus
-[19:55:06] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.WaypointBeaconHandler registered in MinecraftForgeBus
-[19:55:06] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.TextureAtlasHandler registered in MinecraftForgeBus
-[19:55:06] [Client thread/INFO] [WorldInfoHandler] Registered channel: world_info
-[19:55:06] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.MiniMapOverlayHandler registered in MinecraftForgeBus
-[19:55:06] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.KeyEventHandler registered in FMLCommonHandlerBus
-[19:55:06] [Client thread/INFO] [IconSetFileHandler] Initializing icon sets...
-[19:55:07] [Client thread/TRACE] [ThemeFileHandler] Initializing themes ...
-[19:55:07] [Client thread/DEBUG] [PropertiesBase] Saved journeymap.webmap.config
-[19:55:07] [Client thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r321.13§8ms§r
-[19:55:07] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
+[17:20:39] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg �ms
+[17:21:32] [Client thread/INFO] [JourneymapClient] postInitialize ENTER
+[17:21:32] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.ChatEventHandler registered in MinecraftForgeBus
+[17:21:32] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.StateTickHandler registered in FMLCommonHandlerBus
+[17:21:32] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.WorldEventHandler registered in MinecraftForgeBus
+[17:21:32] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.ChunkUpdateHandler registered in MinecraftForgeBus
+[17:21:32] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.WaypointBeaconHandler registered in MinecraftForgeBus
+[17:21:32] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.TextureAtlasHandler registered in MinecraftForgeBus
+[17:21:32] [Client thread/INFO] [WorldInfoHandler] Registered channel: world_info
+[17:21:32] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.MiniMapOverlayHandler registered in MinecraftForgeBus
+[17:21:32] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.KeyEventHandler registered in FMLCommonHandlerBus
+[17:21:32] [Client thread/INFO] [IconSetFileHandler] Initializing icon sets...
+[17:21:32] [Client thread/TRACE] [ThemeFileHandler] Initializing themes ...
+[17:21:32] [Client thread/DEBUG] [PropertiesBase] Saved journeymap.webmap.config
+[17:21:32] [Client thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r315.25§8ms§r
+[17:21:32] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
 java.net.UnknownHostException: widget.mcf.li
 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:1.8.0_51]
 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_51]
@@ -71,131 +71,103 @@ java.net.UnknownHostException: widget.mcf.li
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_51]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_51]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
-[19:55:28] [Client thread/INFO] [ColorManager] Loading blocks and textures...
-[19:55:28] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersBlock:0] (SpecialHandling)'.
-[19:55:28] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersBarrier:0] (SpecialHandling)'.
-[19:55:28] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersBed:0] (SpecialHandling)'.
-[19:55:28] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersButton:0] (SpecialHandling)'.
-[19:55:28] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersCollapsibleBlock:0] (SpecialHandling)'.
-[19:55:28] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersDaylightSensor:0] (SpecialHandling)'.
-[19:55:28] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersDoor:0] (SpecialHandling)'.
-[19:55:28] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersFlowerPot:0] (SpecialHandling)'.
-[19:55:28] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersGarageDoor:0] (SpecialHandling)'.
-[19:55:28] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersGate:0] (SpecialHandling)'.
-[19:55:28] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersHatch:0] (SpecialHandling)'.
-[19:55:28] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersLadder:0] (OpenToSky,SpecialHandling)'.
-[19:55:28] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersLever:0] (SpecialHandling)'.
-[19:55:28] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersPressurePlate:0] (SpecialHandling)'.
-[19:55:28] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersSafe:0] (SpecialHandling)'.
-[19:55:28] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersSlope:0] (SpecialHandling)'.
-[19:55:28] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersSlope:1] (SpecialHandling)'.
-[19:55:28] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersSlope:2] (SpecialHandling)'.
-[19:55:28] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersSlope:3] (SpecialHandling)'.
-[19:55:28] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersSlope:4] (SpecialHandling)'.
-[19:55:28] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersStairs:0] (SpecialHandling)'.
-[19:55:28] [Client thread/INFO] [BlockMD] Built BlockMD cache (12112) : BlockMD.reset count 1 avg 83.18ms
-[19:55:28] [Client thread/INFO] [ColorHelper_1_7_10] initBlocksTexture: 4096x2048 loaded in 73.2516ms
-[19:55:28] [Client thread/INFO] [ColorPalette] Existing color palette's resource packs and mod names match current loadout.
-[19:55:28] [Client thread/INFO] [ColorManager] Loaded 10547 block colors from color palette file in 10ms: D:\.minecraft\versions\Terra Firma Rescue\journeymap\colorpalette.json
-[19:55:28] [Client thread/INFO] [ColorManager] Initialized 113 block colors from mods and resource packs in 12ms
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [DraconicEvolution:reactorCore:0] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersHatch:0] (Transparency,Error,SpecialHandling)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [DraconicEvolution:reactorStabilizer:0] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:stoneStalac:0] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersGarageDoor:0] (Transparency,Error,SpecialHandling)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersStairs:0] (Transparency,Error,SpecialHandling)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersBed:0] (Transparency,Error,SpecialHandling)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersSafe:0] (Transparency,Error,SpecialHandling)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersBlock:0] (Transparency,Error,SpecialHandling)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:1] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:0] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:3] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:2] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:5] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:4] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:7] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:6] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:9] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:8] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:11] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:10] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:13] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:12] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:15] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:14] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [tfcudarymod:tile.Alloy Calculator:0] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersSlope:3] (Transparency,Error,SpecialHandling)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersSlope:4] (Transparency,Error,SpecialHandling)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersSlope:0] (Transparency,Error,SpecialHandling)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersSlope:1] (Transparency,Error,SpecialHandling)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersSlope:2] (Transparency,Error,SpecialHandling)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [advancedRocketry:tile.lightSource:0] (OpenToSky,Transparency,Error,TransparentRoof)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand2:0] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersLadder:0] (OpenToSky,Transparency,Error,SpecialHandling)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:LooseRock:0] (HasAir,NoShadow,Transparency,Error,NoTopo)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersDaylightSensor:0] (Transparency,Error,SpecialHandling)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [DraconicEvolution:reactorEnergyInjector:0] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersCollapsibleBlock:0] (Transparency,Error,SpecialHandling)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [chisel:glass_pane:4] (OpenToSky,Transparency,Error,TransparentRoof)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersGate:0] (Transparency,Error,SpecialHandling)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:NestBox:0] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [DraconicEvolution:portal:0] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersBarrier:0] (Transparency,Error,SpecialHandling)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [DraconicEvolution:chaosCrystal:0] (Transparency,Error)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersButton:0] (Transparency,Error,SpecialHandling)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersPressurePlate:0] (Transparency,Error,SpecialHandling)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersDoor:0] (Transparency,Error,SpecialHandling)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:0] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:2] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:1] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:4] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:3] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:6] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:5] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:8] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:7] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:10] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:9] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:12] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:11] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:14] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:13] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:55:28] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:15] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:55:28] [Client thread/INFO] [ColorPalette] Color palette file generated with 10547 colors in 65ms for: D:\.minecraft\versions\Terra Firma Rescue\journeymap\colorpalette.json
-[19:55:28] [Client thread/INFO] [ColorManager] Updated color palette file: D:\.minecraft\versions\Terra Firma Rescue\journeymap\colorpalette.json
-[20:00:20] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\.minecraft\versions\Terra Firma Rescue\journeymap\data\sp\新的世界\waypoints
-[20:00:20] [Client thread/INFO] [ColorManager] Blocks and textures are current
-[20:00:20] [Client thread/INFO] [JourneymapClient] Mapping started in D:\.minecraft\versions\Terra Firma Rescue\journeymap\data\sp\新的世界\DIM0. Memory: 7188MB total, 4358MB free 
-[20:00:40] [Client thread/INFO] [ChatLog] JourneyMap: 按下[J]键
-[20:12:42] [Server thread/ERROR] [WorldIDPacket] Failed to read message: java.lang.IndexOutOfBoundsException
-[20:12:42] [JM-texture-4/WARN] [TextureCache] Error getting skin image: http://skins.minecraft.net/MinecraftSkins/cjjdmm.png : skins.minecraft.net
-[20:12:43] [JM-texture-4/WARN] [TextureCache] Bad Response getting image: https://minecraft.net/images/steve.png : 308
-[20:12:43] [JM-texture-4/WARN] [TextureCache$1] Couldn't get a skin at all for cjjdmm
-[20:14:46] [Server thread/ERROR] [WorldIDPacket] Failed to read message: java.lang.IndexOutOfBoundsException
-[20:20:12] [Server thread/ERROR] [WorldIDPacket] Failed to read message: java.lang.IndexOutOfBoundsException
-[20:22:08] [Server thread/ERROR] [WorldIDPacket] Failed to read message: java.lang.IndexOutOfBoundsException
-[20:30:30] [Client thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
-[20:30:30] [Client thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
-[21:06:28] [Client thread/WARN] [FileHandler] Icon Set asset not found: /assets/journeymap/icon/entity/2D/terrafirmacraft/textures/mob/Bear.png
-[21:06:36] [Server thread/ERROR] [WorldIDPacket] Failed to read message: java.lang.IndexOutOfBoundsException
-[21:08:00] [Server thread/ERROR] [WorldIDPacket] Failed to read message: java.lang.IndexOutOfBoundsException
-[21:15:21] [JM-task-5/INFO] [VanillaColorHandler] Custom biome color will be used with BlockMD [terrafirmacraft:Reeds:15] (CustomBiomeColor)
-[21:15:21] [JM-task-5/INFO] [VanillaColorHandler] Custom biome color will be used with BlockMD [terrafirmacraft:Reeds:11] (CustomBiomeColor)
-[21:19:47] [Client thread/WARN] [FileHandler] Icon Set asset not found: /assets/journeymap/icon/entity/2D/terrafirmacraft/textures/mob/PheasantF.png
-[21:28:11] [Client thread/WARN] [FileHandler] Icon Set asset not found: /assets/journeymap/icon/entity/2D/terrafirmacraft/textures/mob/sheep.png
-[21:32:11] [Server thread/ERROR] [WorldIDPacket] Failed to read message: java.lang.IndexOutOfBoundsException
-[21:33:57] [Server thread/ERROR] [WorldIDPacket] Failed to read message: java.lang.IndexOutOfBoundsException
-[21:58:19] [Server thread/ERROR] [WorldIDPacket] Failed to read message: java.lang.IndexOutOfBoundsException
-[21:59:33] [JM-task-5/INFO] [VanillaColorHandler] Custom biome color will be used with BlockMD [terrafirmacraft:Reeds:5] (CustomBiomeColor)
-[22:00:13] [Server thread/ERROR] [WorldIDPacket] Failed to read message: java.lang.IndexOutOfBoundsException
-[22:04:00] [Server thread/ERROR] [WorldIDPacket] Failed to read message: java.lang.IndexOutOfBoundsException
-[22:17:11] [Client thread/INFO] [JourneymapClient] Mapping halted in D:\.minecraft\versions\Terra Firma Rescue\journeymap\data\sp\新的世界\DIM0
-[22:19:13] [Client thread/INFO] [WaypointStore] Loaded 9 waypoints from D:\.minecraft\versions\Terra Firma Rescue\journeymap\data\sp\新的世界\waypoints
-[22:19:13] [Client thread/INFO] [ColorManager] Blocks and textures are current
-[22:19:13] [Client thread/INFO] [JourneymapClient] Mapping started in D:\.minecraft\versions\Terra Firma Rescue\journeymap\data\sp\新的世界\DIM0. Memory: 8782MB total, 6881MB free 
-[22:33:12] [JM-task-25/INFO] [VanillaColorHandler] Custom biome color will be used with BlockMD [terrafirmacraft:Reeds:10] (CustomBiomeColor)
-[22:33:12] [JM-task-25/INFO] [VanillaColorHandler] Custom biome color will be used with BlockMD [terrafirmacraft:Reeds:14] (CustomBiomeColor)
-[22:33:12] [JM-task-25/INFO] [VanillaColorHandler] Custom biome color will be used with BlockMD [terrafirmacraft:Reeds:13] (CustomBiomeColor)
-[23:03:27] [Client thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
-[23:03:27] [Client thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
-[23:07:48] [Client thread/INFO] [JourneymapClient] Mapping halted in D:\.minecraft\versions\Terra Firma Rescue\journeymap\data\sp\新的世界\DIM0
+[17:21:54] [Client thread/INFO] [ColorManager] Loading blocks and textures...
+[17:21:54] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersBlock:0] (SpecialHandling)'.
+[17:21:54] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersBarrier:0] (SpecialHandling)'.
+[17:21:54] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersBed:0] (SpecialHandling)'.
+[17:21:54] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersButton:0] (SpecialHandling)'.
+[17:21:54] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersCollapsibleBlock:0] (SpecialHandling)'.
+[17:21:54] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersDaylightSensor:0] (SpecialHandling)'.
+[17:21:54] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersDoor:0] (SpecialHandling)'.
+[17:21:54] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersFlowerPot:0] (SpecialHandling)'.
+[17:21:54] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersGarageDoor:0] (SpecialHandling)'.
+[17:21:54] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersGate:0] (SpecialHandling)'.
+[17:21:54] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersHatch:0] (SpecialHandling)'.
+[17:21:54] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersLadder:0] (OpenToSky,SpecialHandling)'.
+[17:21:54] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersLever:0] (SpecialHandling)'.
+[17:21:54] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersPressurePlate:0] (SpecialHandling)'.
+[17:21:54] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersSafe:0] (SpecialHandling)'.
+[17:21:54] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersSlope:0] (SpecialHandling)'.
+[17:21:54] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersSlope:1] (SpecialHandling)'.
+[17:21:54] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersSlope:2] (SpecialHandling)'.
+[17:21:54] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersSlope:3] (SpecialHandling)'.
+[17:21:54] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersSlope:4] (SpecialHandling)'.
+[17:21:54] [Client thread/INFO] [ModBlockDelegate] Registered IModBlockHandler journeymap.client.model.mod.CarpentersBlocks$CommonHandler for: 'BlockMD [CarpentersBlocks:blockCarpentersStairs:0] (SpecialHandling)'.
+[17:21:55] [Client thread/INFO] [BlockMD] Built BlockMD cache (12112) : BlockMD.reset count 1 avg 68.9ms
+[17:21:55] [Client thread/INFO] [ColorHelper_1_7_10] initBlocksTexture: 4096x2048 loaded in 71.9959ms
+[17:21:55] [Client thread/WARN] [ColorPalette] Existing color palette's mods no longer match current loadout.
+[17:21:55] [Client thread/INFO] [ColorPalette] WAS: AE2 Stuff:0.5.1.61, AE2 Wireless Crafting Terminal:1.7.10-rv3-1.8.7.9b, AR-TFR:2.0.0.02-TFR, Advanced Rocketry:1, AnimalCrate:0.01, Applied Energistics 2 Core:rv3-beta-6, Applied Energistics 2:rv3-beta-6, AutomatedBellowsAddon:1.1a, Avaritia:1.13, Avaritiaddons:1.4b, BD Lib:1.9.4.109, Backpack:2.0.1, Baubles:1.0.1.10, Better Builder's Wands:0.8.1, Better Loading Screen TFR:1.5.0-TFR, Better Questing Quest Book:2.1.1-1.7.10, Better Questing:3.0.306, Binnie Core:2.0.22.7, Botania:TFR-2605, Botany:2.0.22.7, Brandon's Core:1.0.0.12, Carpenter's Blocks:3.3.8.2, CellarsAddon:1.1, Chisel:2.9.5.11, CodeChicken Core:1.0.7.47, Custom Main Menu:1.9.2, Custom Ore Generation:1.2.26, CustomNpcs:1.7.10d, Draconic Evolution:1.0.2h, Enhanced LootBags:1.0.2a, Extra Bees:2.0.22.7, Extra Cells 2:2.3.14, Extra Trees:2.0.22.7, FTB Tweaks:1.0.2, FTBLib:1.0.18.2, FTBUtilities:1.0.18.2, FastCraft:1.25, FoamFix:@VERSION@, FoamFixCore:1.0.0-beta2, Forestry for Minecraft:4.2.16.64, Forge Mod Loader:7.10.99.99, GenDustry:1.6.3.132, Genetics:2.0.22.7, Greg-API-Post:GT6-MC1710, Greg-API:GT6-MC1710, Greg-ASM®:6.14.01, GregTech 6 Unofficial:GT6-MC1710, Hardcore Darkness:1.7, HoloInventory:1.9.1.124, IC2 Crop Plugin:1.2.1, InGame Info XML:2.8.1.82, IndustrialCraft 2:2.2.827-experimental, Inventory Tweaks:1.58, Iron Chest:6.0.62.742, JourneyMap:5.1.4p2, Leather Water Sac:3.9.B79, LunatriusCore:1.1.2.21, MTUtils:1.6, Matter Overdrive:0.4.2, MineTweaker 3:3.0.10, Minecraft Coder Pack:9.05, Minecraft Forge:10.13.4.1614, Mod Tweaker 2:0.9.6, MoegAddon_TFR:1.15, Mouse Tweaks:2.4.4, NEI Addons: Applied Energistics 2:1.12.15.41, NEI Addons: Botany:1.12.15.41, NEI Addons: Crafting Tables:1.12.15.41, NEI Addons: Developer Tools:1.12.15.41, NEI Addons: Ex Nihilo:1.12.15.41, NEI Addons: Forestry:1.12.15.41, NEI Addons:1.12.15.41, NEI Integration:1.1.2, Not Enough Characters:1.0, Not Enough Items:2.0.1-GTNH, Nuclear Control 2:2.4.3a, Omni Ocular Core:1.0, Omni Ocular:1.7.10-1.0build103, OpenBlocks:1.6, OpenComputers (Core):1.7.5.1290, OpenComputers:1.7.5.1290, OpenMods:0.10.1, OpenModsCore:0.10.1, Railcraft:9.12.2.0, Resource Loader:1.3, Shurgent's TFCTech Addon:0.2.10-A15, Standard Expansion:3.0.162, TFC Primitive Technology AddOn:1.0.1, TFC Scales:1.0, TFC Tweaker:1.1.4.0, TFC Udary Mod:0.2.33, TFC[coremod]:0.80.10, TerraFirmaCraftNEIplugin:1.5.3.25, TerraFirmaCraft_TFR:0.80.10, TooMuchTime:2.4.0, UnicodeFontFixer:1.1.12-mc1.7.10, Waila Harvestability:1.1.6, Waila:1.5.10, WanionLib:1.7.10-1.8, YAMCore:0.5.78, libVulpes:0.2.8.-37, p455w0rd's Library:1.0.4
+NOW: AE2 Stuff:0.5.1.61, AE2 Wireless Crafting Terminal:1.7.10-rv3-1.8.7.9b, AR-TFR:2.0.0.02-TFR, Advanced Rocketry:1, AnimalCrate:0.01, Applied Energistics 2 Core:rv3-beta-6, Applied Energistics 2:rv3-beta-6, AutomatedBellowsAddon:1.1a, Avaritia:1.13, Avaritiaddons:1.4b, BD Lib:1.9.4.109, Backpack:2.0.1, Baubles:1.0.1.10, Better Builder's Wands:0.8.1, Better Loading Screen TFR:1.5.0-TFR, Better Questing Quest Book:2.1.1-1.7.10, Better Questing:3.0.306, Binnie Core:2.0.22.7, Botania:TFR-2605, Botany:2.0.22.7, Brandon's Core:1.0.0.12, Carpenter's Blocks:3.3.8.2, CellarsAddon:1.1, Chisel:2.9.5.11, CodeChicken Core:1.0.7.47, Custom Main Menu:1.9.2, Custom Ore Generation:1.2.26, CustomNpcs:1.7.10d, Draconic Evolution:1.0.2h, Enhanced LootBags:1.0.2a, Extra Bees:2.0.22.7, Extra Cells 2:2.3.14, Extra Trees:2.0.22.7, FTB Tweaks:1.0.2, FTBLib:1.0.18.2, FTBUtilities:1.0.18.2, FastCraft:1.25, FoamFix:@VERSION@, FoamFixCore:1.0.0-beta2, Forestry for Minecraft:4.2.16.64, Forge Mod Loader:7.10.99.99, GenDustry:1.6.3.132, Genetics:2.0.22.7, Greg-API-Post:GT6-MC1710, Greg-API:GT6-MC1710, Greg-ASM®:6.14.01, GregTech 6 Unofficial:GT6-MC1710, Hardcore Darkness:1.7, HoloInventory:1.9.1.124, IC2 Crop Plugin:1.2.1, InGame Info XML:2.8.1.82, IndustrialCraft 2:2.2.827-experimental, IngameIME:2.0.10, Inventory Tweaks:1.58, Iron Chest:6.0.62.742, JourneyMap:5.1.4p2, Leather Water Sac:3.9.B79, LunatriusCore:1.1.2.21, MTUtils:1.6, Matter Overdrive:0.4.2, MineTweaker 3:3.0.10, Minecraft Coder Pack:9.05, Minecraft Forge:10.13.4.1614, Mod Tweaker 2:0.9.6, MoegAddon_TFR:1.15, Mouse Tweaks:2.4.4, NEI Addons: Applied Energistics 2:1.12.15.41, NEI Addons: Botany:1.12.15.41, NEI Addons: Crafting Tables:1.12.15.41, NEI Addons: Developer Tools:1.12.15.41, NEI Addons: Ex Nihilo:1.12.15.41, NEI Addons: Forestry:1.12.15.41, NEI Addons:1.12.15.41, NEI Integration:1.1.2, Not Enough Characters:1.0, Not Enough Items:2.0.1-GTNH, Nuclear Control 2:2.4.3a, Omni Ocular Core:1.0, Omni Ocular:1.7.10-1.0build103, OpenBlocks:1.6, OpenComputers (Core):1.7.5.1290, OpenComputers:1.7.5.1290, OpenMods:0.10.1, OpenModsCore:0.10.1, Railcraft:9.12.2.0, Resource Loader:1.3, Shurgent's TFCTech Addon:0.2.10-A15, Standard Expansion:3.0.162, TFC Primitive Technology AddOn:1.0.1, TFC Scales:1.0, TFC Tweaker:1.1.4.0, TFC Udary Mod:0.2.33, TFC[coremod]:0.80.10, TerraFirmaCraftNEIplugin:1.5.3.25, TerraFirmaCraft_TFR:0.80.10, TooMuchTime:2.4.0, UniMixins: Compatibility:0.1.19, UniMixins: GTNHMixins:2.2.0, UniMixins: GasStation:0.5.1, UniMixins: Mixin (UniMix):0.1.19, UniMixins: MixinBooterLegacy:1.2.1, UniMixins: MixinExtras:0.1.19, UniMixins: Mixingasm:0.3, UniMixins: SpongeMixins:2.0.1, UniMixins:0.1.19, UnicodeFontFixer:1.1.12-mc1.7.10, Waila Harvestability:1.1.6, Waila:1.5.10, WanionLib:1.7.10-1.8, YAMCore:0.5.78, libVulpes:0.2.8.-37, p455w0rd's Library:1.0.4
+[17:21:55] [Client thread/INFO] [ColorManager] Initialized 10650 block colors from mods and resource packs in 118ms
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [DraconicEvolution:reactorCore:0] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersHatch:0] (Transparency,Error,SpecialHandling)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [DraconicEvolution:reactorStabilizer:0] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:stoneStalac:0] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersGarageDoor:0] (Transparency,Error,SpecialHandling)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersStairs:0] (Transparency,Error,SpecialHandling)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersBed:0] (Transparency,Error,SpecialHandling)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersSafe:0] (Transparency,Error,SpecialHandling)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersBlock:0] (Transparency,Error,SpecialHandling)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:1] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:0] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:3] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:2] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:5] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:4] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:7] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:6] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:9] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:8] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:11] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:10] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:13] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:12] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:15] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand:14] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [tfcudarymod:tile.Alloy Calculator:0] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersSlope:3] (Transparency,Error,SpecialHandling)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersSlope:4] (Transparency,Error,SpecialHandling)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersSlope:0] (Transparency,Error,SpecialHandling)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersSlope:1] (Transparency,Error,SpecialHandling)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersSlope:2] (Transparency,Error,SpecialHandling)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [advancedRocketry:tile.lightSource:0] (OpenToSky,Transparency,Error,TransparentRoof)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:ArmourStand2:0] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersLadder:0] (OpenToSky,Transparency,Error,SpecialHandling)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:LooseRock:0] (HasAir,NoShadow,Transparency,Error,NoTopo)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersDaylightSensor:0] (Transparency,Error,SpecialHandling)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [DraconicEvolution:reactorEnergyInjector:0] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersCollapsibleBlock:0] (Transparency,Error,SpecialHandling)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [chisel:glass_pane:4] (OpenToSky,Transparency,Error,TransparentRoof)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersGate:0] (Transparency,Error,SpecialHandling)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [terrafirmacraft:NestBox:0] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [DraconicEvolution:portal:0] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersBarrier:0] (Transparency,Error,SpecialHandling)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [DraconicEvolution:chaosCrystal:0] (Transparency,Error)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersButton:0] (Transparency,Error,SpecialHandling)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersPressurePlate:0] (Transparency,Error,SpecialHandling)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [CarpentersBlocks:blockCarpentersDoor:0] (Transparency,Error,SpecialHandling)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:0] (NoShadow,Transparency,Error,Plant,NoTopo)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:2] (NoShadow,Transparency,Error,Plant,NoTopo)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:1] (NoShadow,Transparency,Error,Plant,NoTopo)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:4] (NoShadow,Transparency,Error,Plant,NoTopo)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:3] (NoShadow,Transparency,Error,Plant,NoTopo)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:6] (NoShadow,Transparency,Error,Plant,NoTopo)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:5] (NoShadow,Transparency,Error,Plant,NoTopo)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:8] (NoShadow,Transparency,Error,Plant,NoTopo)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:7] (NoShadow,Transparency,Error,Plant,NoTopo)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:10] (NoShadow,Transparency,Error,Plant,NoTopo)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:9] (NoShadow,Transparency,Error,Plant,NoTopo)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:12] (NoShadow,Transparency,Error,Plant,NoTopo)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:11] (NoShadow,Transparency,Error,Plant,NoTopo)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:14] (NoShadow,Transparency,Error,Plant,NoTopo)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:13] (NoShadow,Transparency,Error,Plant,NoTopo)
+[17:21:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:15] (NoShadow,Transparency,Error,Plant,NoTopo)
+[17:21:55] [Client thread/INFO] [ColorPalette] Color palette file generated with 10547 colors in 88ms for: D:\.minecraft\versions\Terra Firma Rescue\journeymap\colorpalette.json
+[17:21:55] [Client thread/INFO] [ColorManager] Updated color palette file: D:\.minecraft\versions\Terra Firma Rescue\journeymap\colorpalette.json
+[17:23:54] [Client thread/INFO] [WaypointStore] Loaded 9 waypoints from D:\.minecraft\versions\Terra Firma Rescue\journeymap\data\sp\新的世界\waypoints
+[17:23:54] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[17:23:54] [Client thread/INFO] [JourneymapClient] Mapping started in D:\.minecraft\versions\Terra Firma Rescue\journeymap\data\sp\新的世界\DIM0. Memory: 7674MB total, 5118MB free 
+[17:48:01] [Client thread/INFO] [ChatLog] JourneyMap: 按下[J]键
+[18:02:07] [Client thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
+[18:02:07] [Client thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
+[18:16:15] [Client thread/INFO] [JourneymapClient] Mapping halted in D:\.minecraft\versions\Terra Firma Rescue\journeymap\data\sp\新的世界\DIM0

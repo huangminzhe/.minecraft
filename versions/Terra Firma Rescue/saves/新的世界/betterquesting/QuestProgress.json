@@ -1156,7 +1156,16 @@
       "tasks:9": {
         "0:10": {
           "completeUsers:9": {},
-          "userProgress:9": {},
+          "userProgress:9": {
+            "0:10": {
+              "data:9": {
+                "0:3": 10,
+                "1:3": 0,
+                "2:3": 2
+              },
+              "uuid:8": "081c3fe1-1006-49b3-ab3b-95ef9152cc86"
+            }
+          },
           "index:3": 0,
           "taskID:8": "bq_standard:retrieval"
         }

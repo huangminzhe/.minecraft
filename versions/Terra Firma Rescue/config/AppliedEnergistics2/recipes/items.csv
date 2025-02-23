@@ -717,7 +717,7 @@ minecraft:diamond_sword, 钻石剑
 minecraft:diamond_shovel, 钻石锹
 minecraft:diamond_pickaxe, 钻石镐
 minecraft:diamond_axe, 钻石斧
-minecraft:stick, 棍子
+minecraft:stick, 棍子(TFC)
 minecraft:bowl, 碗
 minecraft:mushroom_stew, 蘑菇煲
 minecraft:golden_sword, 金剑
@@ -1216,7 +1216,7 @@ terrafirmacraft:Flowers2:8, 雏菊
 terrafirmacraft:Fungi:0, 棕蘑菇
 terrafirmacraft:Fungi:1, 红蘑菇
 terrafirmacraft:Bookshelf:0, 书架
-terrafirmacraft:Torch:0, 火把
+terrafirmacraft:Torch:0, 原始火把
 terrafirmacraft:TorchOff, Extinguished Torch
 terrafirmacraft:Chest TFC:0, 橡树箱子
 terrafirmacraft:Chest TFC:1, 白杨树箱子
@@ -1235,7 +1235,7 @@ terrafirmacraft:Chest TFC:13, 榆树箱子
 terrafirmacraft:Chest TFC:14, 杨柳箱子
 terrafirmacraft:Chest TFC:15, 木棉箱子
 terrafirmacraft:Chest TFC:16, 金合欢箱子
-terrafirmacraft:Workbench:0, 工作台
+terrafirmacraft:Workbench:0, 3x3背包工作台升级
 terrafirmacraft:Cactus:0, 仙人掌
 terrafirmacraft:Reeds, 芦苇
 terrafirmacraft:Pumpkin:0, 南瓜
@@ -10666,20 +10666,20 @@ terrafirmacraft:item.Ore:13, 黝铜矿
 terrafirmacraft:item.Ore:14, 烟煤
 terrafirmacraft:item.Ore:15, 褐煤
 terrafirmacraft:item.Ore:16, 高岭石
-terrafirmacraft:item.Ore:17, 石膏
-terrafirmacraft:item.Ore:18, 纤维石膏
-terrafirmacraft:item.Ore:19, 月光石
+terrafirmacraft:item.Ore:17, 硅灰硼石
+terrafirmacraft:item.Ore:18, 天然碱
+terrafirmacraft:item.Ore:19, 铬铁矿
 terrafirmacraft:item.Ore:20, 石墨
 terrafirmacraft:item.Ore:21, 金伯利岩
 terrafirmacraft:item.Ore:22, 硅化木
 terrafirmacraft:item.Ore:23, 硫磺
-terrafirmacraft:item.Ore:24, 黑玉
-terrafirmacraft:item.Ore:25, 微斜长石
+terrafirmacraft:item.Ore:24, 辉锑矿
+terrafirmacraft:item.Ore:25, 软锰矿
 terrafirmacraft:item.Ore:26, 沥青铀矿
 terrafirmacraft:item.Ore:27, 朱砂
 terrafirmacraft:item.Ore:28, 冰晶石
 terrafirmacraft:item.Ore:29, 硝石
-terrafirmacraft:item.Ore:30, 蛇纹石
+terrafirmacraft:item.Ore:30, 绿玉石
 terrafirmacraft:item.Ore:31, 钾盐
 terrafirmacraft:item.Ore:32, 硼砂
 terrafirmacraft:item.Ore:33, 橄榄石
@@ -11166,9 +11166,9 @@ terrafirmacraft:item.Jute, 黄麻
 terrafirmacraft:item.Jute Fibre, 黄麻纤维
 terrafirmacraft:item.Reeds, 芦苇
 terrafirmacraft:item.fishingRod, 鱼竿
-terrafirmacraft:item.coal:0, 煤炭
-terrafirmacraft:item.coal:1, 木炭
-terrafirmacraft:item.stick:0, 棍子
+terrafirmacraft:item.coal:0, 煤炭(TFC)
+terrafirmacraft:item.coal:1, 木炭(TFC)
+terrafirmacraft:item.stick:0, 棍子(TFC)
 terrafirmacraft:item.bow, 弓
 terrafirmacraft:item.arrow, 箭
 terrafirmacraft:item.dyePowder:0, 墨囊
@@ -11188,7 +11188,7 @@ terrafirmacraft:item.dyePowder:13, 品红色颜料
 terrafirmacraft:item.dyePowder:14, 橙色颜料
 terrafirmacraft:item.dyePowder:15, 骨粉
 terrafirmacraft:item.Rope, 绳子
-terrafirmacraft:item.Clay:0, 粘土
+terrafirmacraft:item.Clay:0, 粘土(TFC)
 terrafirmacraft:item.Clay:1, 陶土
 terrafirmacraft:item.Powder:0, 助焊剂
 terrafirmacraft:item.Powder:1, 高岭石粉
@@ -12586,7 +12586,7 @@ appliedenergistics2:item.ItemFacade:0, 线缆伪装板 - 锌块
 appliedenergistics2:item.ItemFacade:0, 线缆伪装板 - 琥珀金块
 appliedenergistics2:item.ItemFacade:0, 线缆伪装板 - 康铜块
 appliedenergistics2:item.ItemFacade:0, 线缆伪装板 - 书架
-appliedenergistics2:item.ItemFacade:0, 线缆伪装板 - 工作台
+appliedenergistics2:item.ItemFacade:0, 线缆伪装板 - 3x3背包工作台升级
 appliedenergistics2:item.ItemFacade:0, 线缆伪装板 - 空方块
 appliedenergistics2:item.ItemFacade:0, 线缆伪装板 - ic2.blockOreCopper
 appliedenergistics2:item.ItemFacade:0, 线缆伪装板 - ic2.blockOreTin
