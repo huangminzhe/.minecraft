@@ -1,434 +1,204 @@
-[282月2025 20:17:34.598] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, Lin_morning, --version, 1.20.1-Forge_47.3.0, --gameDir, D:\.minecraft, --assetsDir, D:\.minecraft\assets, --assetIndex, 5, --uuid, 081c3fe1100649b3ab3b95ef9152cc86, --accessToken, ????????, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, msa, --versionType, PCL, --width, 873, --height, 508, --launchTarget, forgeclient, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[282月2025 20:17:34.600] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.8 by Microsoft; OS Windows 10 arch amd64 version 10.0
-[282月2025 20:17:34.781] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[282月2025 20:17:34.838] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[282月2025 20:17:34.947] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[282月2025 20:17:35.026] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/.minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23150!/ Service=ModLauncher Env=CLIENT
-[282月2025 20:17:35.030] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics 770 GL version 4.6.0 - Build 31.0.101.5522, Intel
-[282月2025 20:17:35.257] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\.minecraft\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.0\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[282月2025 20:17:35.260] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\.minecraft\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.0\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[282月2025 20:17:35.262] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\.minecraft\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.0\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[282月2025 20:17:35.264] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\.minecraft\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.0\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[282月2025 20:17:35.380] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
-[282月2025 20:17:36.168] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[282月2025 20:17:36.181] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.20.1-Forge_47.3.0, --gameDir, D:\.minecraft, --assetsDir, D:\.minecraft\assets, --uuid, 081c3fe1100649b3ab3b95ef9152cc86, --username, Lin_morning, --assetIndex, 5, --accessToken, ????????, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, msa, --versionType, PCL, --width, 873, --height, 508]
-[282月2025 20:17:36.428] [main/WARN] [mixin/]: Error loading class: xfacthd/framedblocks/common/blockentity/doubled/FramedAdjustableDoubleBlockEntity (java.lang.ClassNotFoundException: xfacthd.framedblocks.common.blockentity.doubled.FramedAdjustableDoubleBlockEntity)
-[282月2025 20:17:36.428] [main/WARN] [mixin/]: @Mixin target xfacthd.framedblocks.common.blockentity.doubled.FramedAdjustableDoubleBlockEntity was not found createbigcannons.mixins.json:compat.FramedAdjustableDoubleBlockEntityAccessor
-[282月2025 20:17:36.810] [main/WARN] [mixin/]: Error loading class: dev/emi/emi/screen/widget/EmiSearchWidget (java.lang.ClassNotFoundException: dev.emi.emi.screen.widget.EmiSearchWidget)
-[282月2025 20:17:36.810] [main/WARN] [mixin/]: @Mixin target dev.emi.emi.screen.widget.EmiSearchWidget was not found imblocker-forge.mixins.json:EmiSearchWidgetMixin
-[282月2025 20:17:36.811] [main/WARN] [mixin/]: Error loading class: me/shedaniel/rei/impl/client/gui/widget/basewidgets/TextFieldWidget (java.lang.ClassNotFoundException: me.shedaniel.rei.impl.client.gui.widget.basewidgets.TextFieldWidget)
-[282月2025 20:17:36.812] [main/WARN] [mixin/]: Error loading class: me/shedaniel/rei/gui/widget/TextFieldWidget (java.lang.ClassNotFoundException: me.shedaniel.rei.gui.widget.TextFieldWidget)
-[282月2025 20:17:36.821] [main/WARN] [mixin/]: Error loading class: com/copycatsplus/copycats/content/copycat/slab/CopycatSlabBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock)
-[282月2025 20:17:36.821] [main/WARN] [mixin/]: @Mixin target com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin
-[282月2025 20:17:36.822] [main/WARN] [mixin/]: Error loading class: com/copycatsplus/copycats/content/copycat/board/CopycatBoardBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock)
-[282月2025 20:17:36.822] [main/WARN] [mixin/]: @Mixin target com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin
-[282月2025 20:17:36.825] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults)
-[282月2025 20:17:36.930] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[282月2025 20:17:39.119] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 71 milliseconds
-[282月2025 20:17:40.188] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/.minecraft/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23174!/assets/.mcassetsroot' uses unexpected schema
-[282月2025 20:17:40.189] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/.minecraft/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23174!/data/.mcassetsroot' uses unexpected schema
-[282月2025 20:17:40.201] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[282月2025 20:17:40.841] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Lin_morning
-[282月2025 20:17:40.966] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[282月2025 20:17:41.130] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
-[282月2025 20:17:41.130] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
-[282月2025 20:17:41.136] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
-[282月2025 20:17:41.140] [modloading-worker-0/INFO] [create_new_age/]: Hello 1.20.1 Create!
-[282月2025 20:17:41.192] [modloading-worker-0/INFO] [Railways/]: Steam 'n' Rails v1.6.7 initializing! Commit hash: 0a7cc000d6c7a1419919bc3e315bc62932287eb9 on Create version: 0.5.1j on platform: Forge
-[282月2025 20:17:41.450] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[282月2025 20:17:41.453] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 1.896 ms
-[282月2025 20:17:41.722] [modloading-worker-0/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on create_connected.mixins.json:sequencedgearshift.SequencedGearshiftScreenMixin::handler$znf000$updateParamsOfRow exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[282月2025 20:17:41.991] [modloading-worker-0/INFO] [Railways/]: Registered bogey styles from railways
-[282月2025 20:17:42.147] [modloading-worker-0/INFO] [Railways/]: Registering data fixers
-[282月2025 20:17:42.153] [Railways Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 2 Datafixer optimizations took 1 milliseconds
-[282月2025 20:17:42.169] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Hex Casting
-[282月2025 20:17:42.171] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Oh The Biomes You'll Go
-[282月2025 20:17:42.171] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Blue Skies
-[282月2025 20:17:42.172] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Twilight Forest
-[282月2025 20:17:42.173] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Biomes O' Plenty
-[282月2025 20:17:42.174] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Nature's Spirit
-[282月2025 20:17:42.174] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Dreams and Desires
-[282月2025 20:17:42.175] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Quark
-[282月2025 20:17:42.177] [modloading-worker-0/INFO] [Railways/]: Registering tracks for TerraFirmaCraft
-[282月2025 20:17:43.817] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[282月2025 20:17:43.838] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file D:\.minecraft\config\flywheel-client.toml is not correct. Correcting
-[282月2025 20:17:43.840] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key backend was corrected from null to its default, INSTANCING. 
-[282月2025 20:17:43.841] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debugNormals was corrected from null to its default, false. 
-[282月2025 20:17:43.842] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key limitUpdates was corrected from null to its default, true. 
-[282月2025 20:17:43.851] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file D:\.minecraft\config\imblocker-client.toml is not correct. Correcting
-[282月2025 20:17:43.852] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key checkIntervalMilli was corrected from null to its default, 100. 
-[282月2025 20:17:43.853] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screenBlacklist was corrected from null to its default, []. 
-[282月2025 20:17:43.854] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screenWhitelist was corrected from null to its default, [net.minecraft.client.gui.screens.inventory.BookEditScreen, net.minecraft.client.gui.screens.inventory.SignEditScreen, net.minecraft.client.gui.screens.inventory.HangingSignEditScreen, journeymap.client.ui.waypoint.WaypointEditor, com.ldtteam.blockout.BOScreen]. 
-[282月2025 20:17:43.855] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inputBlacklist was corrected from null to its default, []. 
-[282月2025 20:17:43.856] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inputWhitelist was corrected from null to its default, []. 
-[282月2025 20:17:43.858] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enableScreenRecovering was corrected from null to its default, false. 
-[282月2025 20:17:43.859] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recoveredScreens was corrected from null to its default, []. 
-[282月2025 20:17:43.860] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key useExperimental was corrected from null to its default, false. 
-[282月2025 20:17:43.861] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key checkCommandChat was corrected from null to its default, true. 
-[282月2025 20:17:43.865] [modloading-worker-0/INFO] [io.github.reserveword.imblocker.common.Common/]: imblock loading config
-[282月2025 20:17:43.867] [modloading-worker-0/WARN] [io.github.reserveword.imblocker.common.Common/]: Class journeymap.client.ui.waypoint.WaypointEditor not found, ignored.
-[282月2025 20:17:43.867] [modloading-worker-0/WARN] [io.github.reserveword.imblocker.common.Common/]: Class com.ldtteam.blockout.BOScreen not found, ignored.
-[282月2025 20:17:43.867] [modloading-worker-0/INFO] [io.github.reserveword.imblocker.common.Common/]: imblocker bakelist screenWhitelist result [class net.minecraft.client.gui.screens.inventory.BookEditScreen, class net.minecraft.client.gui.screens.inventory.HangingSignEditScreen, class net.minecraft.client.gui.screens.inventory.SignEditScreen]
-[282月2025 20:17:43.867] [modloading-worker-0/INFO] [io.github.reserveword.imblocker.common.Common/]: imblocker bakelist screenBlacklist result []
-[282月2025 20:17:43.867] [modloading-worker-0/INFO] [io.github.reserveword.imblocker.common.Common/]: imblocker bakelist inputWhitelist result []
-[282月2025 20:17:43.867] [modloading-worker-0/INFO] [io.github.reserveword.imblocker.common.Common/]: imblocker bakelist inputBlacklist result []
-[282月2025 20:17:43.871] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file D:\.minecraft\config\forge-client.toml is not correct. Correcting
-[282月2025 20:17:43.871] [Thread-4/INFO] [io.github.reserveword.imblocker.common.Common/]: imblock reloading config
-[282月2025 20:17:43.871] [Thread-4/WARN] [io.github.reserveword.imblocker.common.Common/]: Class journeymap.client.ui.waypoint.WaypointEditor not found, ignored.
-[282月2025 20:17:43.872] [Thread-4/WARN] [io.github.reserveword.imblocker.common.Common/]: Class com.ldtteam.blockout.BOScreen not found, ignored.
-[282月2025 20:17:43.872] [Thread-4/INFO] [io.github.reserveword.imblocker.common.Common/]: imblocker bakelist screenWhitelist result [class net.minecraft.client.gui.screens.inventory.BookEditScreen, class net.minecraft.client.gui.screens.inventory.HangingSignEditScreen, class net.minecraft.client.gui.screens.inventory.SignEditScreen]
-[282月2025 20:17:43.872] [Thread-4/INFO] [io.github.reserveword.imblocker.common.Common/]: imblocker bakelist screenBlacklist result []
-[282月2025 20:17:43.872] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.872] [Thread-4/INFO] [io.github.reserveword.imblocker.common.Common/]: imblocker bakelist inputWhitelist result []
-[282月2025 20:17:43.872] [Thread-4/INFO] [io.github.reserveword.imblocker.common.Common/]: imblocker bakelist inputBlacklist result []
-[282月2025 20:17:43.872] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.alwaysSetupTerrainOffThread was corrected from null to its default, false. 
-[282月2025 20:17:43.872] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.experimentalForgeLightPipelineEnabled was corrected from null to its default, false. 
-[282月2025 20:17:43.872] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showLoadWarnings was corrected from null to its default, true. 
-[282月2025 20:17:43.872] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.useCombinedDepthStencilAttachment was corrected from null to its default, false. 
-[282月2025 20:17:43.872] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.compressLanIPv6Addresses was corrected from null to its default, true. 
-[282月2025 20:17:43.872] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.calculateAllNormals was corrected from null to its default, false. 
-[282月2025 20:17:43.872] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.stabilizeDirectionGetNearest was corrected from null to its default, true. 
-[282月2025 20:17:43.877] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file D:\.minecraft\config\create_new_age-client.toml is not correct. Correcting
-[282月2025 20:17:43.877] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wireSectionsPerMeter was corrected from null to its default, 10. 
-[282月2025 20:17:43.878] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wireThickness was corrected from null to its default, 0.03. 
-[282月2025 20:17:43.880] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file D:\.minecraft\config\createdieselgenerators-client.toml is not correct. Correcting
-[282月2025 20:17:43.881] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Client Configs was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.881] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Client Configs.Fuel tooltips was corrected from null to its default, true. 
-[282月2025 20:17:43.881] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Client Configs.Diesel Engine JEI Config was corrected from null to its default, true. 
-[282月2025 20:17:43.881] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Client Configs.Diesel Engines emit sounds on trains was corrected from null to its default, true. 
-[282月2025 20:17:43.883] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file D:\.minecraft\config\createbigcannons-client.toml is not correct. Correcting
-[282月2025 20:17:43.883] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.883] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showAutocannonPlumes was corrected from null to its default, true. 
-[282月2025 20:17:43.883] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showDropMortarPlumes was corrected from null to its default, true. 
-[282月2025 20:17:43.883] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showMortarStoneClouds was corrected from null to its default, true. 
-[282月2025 20:17:43.883] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.fluidBlobParticleCount was corrected from null to its default, 20. 
-[282月2025 20:17:43.883] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.blockArmorInfoPrecision was corrected from null to its default, 2. 
-[282月2025 20:17:43.884] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.useShaderCompatibleGraphics was corrected from null to its default, false. 
-[282月2025 20:17:43.884] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.blastEffectDelaySpeed was corrected from null to its default, 320.0. 
-[282月2025 20:17:43.884] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.highlightFuzeInputOnShellBlocks was corrected from null to its default, true. 
-[282月2025 20:17:43.884] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.projectileFlybySounds was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.884] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.projectileFlybySounds.enableBigCannonProjectileFlybySounds was corrected from null to its default, true. 
-[282月2025 20:17:43.884] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.projectileFlybySounds.enableAutocannonProjectileFlybySounds was corrected from null to its default, true. 
-[282月2025 20:17:43.884] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.cannonMountGoggleTooltip was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.884] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.cannonMountGoggleTooltip.anglePrecision was corrected from null to its default, 2. 
-[282月2025 20:17:43.884] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.cannonMountGoggleTooltip.use180_180RangeForYaw was corrected from null to its default, false. 
-[282月2025 20:17:43.884] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.screenShake was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.884] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.screenShake.cannonScreenShakeIntensity was corrected from null to its default, 1.2999999523162842. 
-[282月2025 20:17:43.884] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.screenShake.cannonScreenShakeSpringiness was corrected from null to its default, 0.07999999821186066. 
-[282月2025 20:17:43.885] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.screenShake.cannonScreenShakeDecay was corrected from null to its default, 0.30000001192092896. 
-[282月2025 20:17:43.885] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.bigCannonBlast was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.885] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.bigCannonBlast.showBigCannonPlumes was corrected from null to its default, true. 
-[282月2025 20:17:43.885] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.bigCannonBlast.showExtraSmoke was corrected from null to its default, true. 
-[282月2025 20:17:43.885] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.bigCannonBlast.showExtraFlames was corrected from null to its default, true. 
-[282月2025 20:17:43.885] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.bigCannonBlast.screenShakePowerMultiplier was corrected from null to its default, 6.0. 
-[282月2025 20:17:43.885] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.bigCannonBlast.screenShakePowerLimit was corrected from null to its default, 45.0. 
-[282月2025 20:17:43.885] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.flakClouds was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.885] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.flakClouds.showFlakClouds was corrected from null to its default, true. 
-[282月2025 20:17:43.885] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.flakClouds.showExtraFlames was corrected from null to its default, true. 
-[282月2025 20:17:43.885] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.flakClouds.showExtraShockwave was corrected from null to its default, true. 
-[282月2025 20:17:43.885] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.flakClouds.showExtraTrails was corrected from null to its default, true. 
-[282月2025 20:17:43.885] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.shrapnelClouds was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.885] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.shrapnelClouds.showShrapnelClouds was corrected from null to its default, true. 
-[282月2025 20:17:43.886] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.shrapnelClouds.showExtraFlames was corrected from null to its default, true. 
-[282月2025 20:17:4[282月2025 20:32:45.287] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-t key client.shrapnelClouds.showExtraShockwave was corrected from null to its default, true. 
-[282月2025 20:17:43.886] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.fluidShellClouds was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.886] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.fluidShellClouds.showFluidShellClouds was corrected from null to its default, true. 
-[282月2025 20:17:43.886] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.fluidShellClouds.showExtraFlames was corrected from null to its default, true. 
-[282月2025 20:17:43.886] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.fluidShellClouds.showExtraShockwave was corrected from null to its default, true. 
-[282月2025 20:17:43.886] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.projectileSplashes was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.886] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.projectileSplashes.showProjectileSplashes was corrected from null to its default, true. 
-[282月2025 20:17:43.886] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.projectileImpacts was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.886] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.projectileImpacts.showProjectileImpacts was corrected from null to its default, true. 
-[282月2025 20:17:43.886] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.sounds was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.886] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.sounds.blastSoundAirAbsorption was corrected from null to its default, true. 
-[282月2025 20:17:43.886] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.shellExplosions was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.886] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.shellExplosions.showShellExplosionClouds was corrected from null to its default, true. 
-[282月2025 20:17:43.886] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.shellExplosions.showExtraTrails was corrected from null to its default, true. 
-[282月2025 20:17:43.886] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.shellExplosions.screenShakePowerMultiplier was corrected from null to its default, 6.0. 
-[282月2025 20:17:43.886] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.shellExplosions.screenShakePowerLimit was corrected from null to its default, 45.0. 
-[282月2025 20:17:43.887] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.particleWindEffect was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.887] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.particleWindEffect.maximumWindSpeed was corrected from null to its default, 1.25. 
-[282月2025 20:17:43.887] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.particleWindEffect.maximumWindBearingChangeSpeed was corrected from null to its default, 8.0. 
-[282月2025 20:17:43.891] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file D:\.minecraft\config\railways-client.toml is not correct. Correcting
-[282月2025 20:17:43.895] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.896] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showExtendedCouplerDebug was corrected from null to its default, false. 
-[282月2025 20:17:43.896] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.skipClientDerailing was corrected from null to its default, false. 
-[282月2025 20:17:43.896] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.useConductorSpyShader was corrected from null to its default, true. 
-[282月2025 20:17:43.896] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.trackOverlayOffset was corrected from null to its default, 0.0. 
-[282月2025 20:17:43.896] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.useDevCape was corrected from null to its default, true. 
-[282月2025 20:17:43.896] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.renderNormalCap was corrected from null to its default, true. 
-[282月2025 20:17:43.896] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.animatedFlywheels was corrected from null to its default, true. 
-[282月2025 20:17:43.896] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.smoke was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.896] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.smoke.smokeType was corrected from null to its default, CARTOON. 
-[282月2025 20:17:43.896] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.smoke.old was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.896] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.smoke.old.smokeLifetime was corrected from null to its default, 500. 
-[282月2025 20:17:43.896] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.smoke.old.smokePercentage was corrected from null to its default, 0.75. 
-[282月2025 20:17:43.896] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.smoke.old.smokeQuality was corrected from null to its default, HIGH. 
-[282月2025 20:17:43.896] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.smoke.old.thickerSmoke was corrected from null to its default, true. 
-[282月2025 20:17:43.896] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.smoke.cartoon was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.896] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.smoke.cartoon.spawnFasterPuffs was corrected from null to its default, true. 
-[282月2025 20:17:43.896] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.smoke.cartoon.spawnSteam was corrected from null to its default, false. 
-[282月2025 20:17:43.897] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.journeymap was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.897] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.journeymap.updateRate was corrected from null to its default, 1. 
-[282月2025 20:17:43.897] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.journeymap.removeObsoleteRate was corrected from null to its default, 200. 
-[282月2025 20:17:43.900] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file D:\.minecraft\config\create-client.toml is not correct. Correcting
-[282月2025 20:17:43.901] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.901] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.enableTooltips was corrected from null to its default, true. 
-[282月2025 20:17:43.901] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.enableOverstressedTooltip was corrected from null to its default, true. 
-[282月2025 20:17:43.901] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.explainRenderErrors was corrected from null to its default, false. 
-[282月2025 20:17:43.901] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.fanParticleDensity was corrected from null to its default, 0.5. 
-[282月2025 20:17:43.901] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.filterItemRenderDistance was corrected from null to its default, 10.0. 
-[282月2025 20:17:43.901] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.enableRainbowDebug was corrected from null to its default, false. 
-[282月2025 20:17:43.902] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.maximumContraptionLightVolume was corrected from null to its default, 16384. 
-[282月2025 20:17:43.902] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.mainMenuConfigButtonRow was corrected from null to its default, 2. 
-[282月2025 20:17:43.902] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.mainMenuConfigButtonOffsetX was corrected from null to its default, -4. 
-[282月2025 20:17:43.902] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.ingameMenuConfigButtonRow was corrected from null to its default, 3. 
-[282月2025 20:17:43.902] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.ingameMenuConfigButtonOffsetX was corrected from null to its default, -4. 
-[282月2025 20:17:43.902] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.ignoreFabulousWarning was corrected from null to its default, false. 
-[282月2025 20:17:43.902] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.rotateWhenSeated was corrected from null to its default, true. 
-[282月2025 20:17:43.902] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.fluidFogSettings was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.902] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.fluidFogSettings.honey was corrected from null to its default, 1.0. 
-[282月2025 20:17:43.902] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.fluidFogSettings.chocolate was corrected from null to its default, 1.0. 
-[282月2025 20:17:43.902] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.goggleOverlay was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.902] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.goggleOverlay.overlayOffsetX was corrected from null to its default, 20. 
-[282月2025 20:17:43.902] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.goggleOverlay.overlayOffsetY was corrected from null to its default, 0. 
-[282月2025 20:17:43.902] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.goggleOverlay.customColorsOverlay was corrected from null to its default, false. 
-[282月2025 20:17:43.902] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.goggleOverlay.customBackgroundOverlay was corrected from null to its default, -267386864. 
-[282月2025 20:17:43.903] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.goggleOverlay.customBorderTopOverlay was corrected from null to its default, 1347420415. 
-[282月2025 20:17:43.903] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.goggleOverlay.customBorderBotOverlay was corrected from null to its default, 1344798847. 
-[282月2025 20:17:43.903] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.placementAssist was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.903] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.placementAssist.indicatorType was corrected from null to its default, TEXTURE. 
-[282月2025 20:17:43.903] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.placementAssist.indicatorScale was corrected from null to its default, 1.0. 
-[282月2025 20:17:43.903] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.ponder was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.903] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.ponder.comfyReading was corrected from null to its default, false. 
-[282月2025 20:17:43.903] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.ponder.editingMode was corrected from null to its default, false. 
-[282月2025 20:17:43.903] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.sound was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.903] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.sound.enableAmbientSounds was corrected from null to its default, true. 
-[282月2025 20:17:43.903] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.sound.ambientVolumeCap was corrected from null to its default, 0.10000000149011612. 
-[282月2025 20:17:43.903] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.trains was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.903] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.trains.mountedZoomMultiplier was corrected from null to its default, 3.0. 
-[282月2025 20:17:43.903] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.trains.showTrackGraphOnF3 was corrected from null to its default, false. 
-[282月2025 20:17:43.903] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.trains.showExtendedTrackGraphOnF3 was corrected from null to its default, false. 
-[282月2025 20:17:43.910] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file D:\.minecraft\config\create_new_age-common.toml is not correct. Correcting
-[282月2025 20:17:43.912] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key suToEnergy was corrected from null to its default, 0.029296875. 
-[282月2025 20:17:43.913] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key maxCoils was corrected from null to its default, 8. 
-[282月2025 20:17:43.914] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key maxRodsInDirection was corrected from null to its default, 32. 
-[282月2025 20:17:43.915] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key conductivityMultiplier was corrected from null to its default, 1.0. 
-[282月2025 20:17:43.915] [Worker-Main-6/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[282月2025 20:17:43.915] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key maxPathfindingDepth was corrected from null to its default, 32. 
-[282月2025 20:17:43.916] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key energiserSpeedMultiplier was corrected from null to its default, 1.0. 
-[282月2025 20:17:43.916] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overheatingMultiplier was corrected from null to its default, 1.0. 
-[282月2025 20:17:43.917] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passiveHeatSourceMultiplier was corrected from null to its default, 1.0. 
-[282月2025 20:17:43.918] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passivePipeHeatLoss was corrected from null to its default, 1.0. 
-[282月2025 20:17:43.919] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key boilerRequiredHeatMultiplier was corrected from null to its default, 1.0. 
-[282月2025 20:17:43.920] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ReactorRodHeat was corrected from null to its default, 30.0. 
-[282月2025 20:17:43.921] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ReactorRodHeatLoss was corrected from null to its default, 25.0. 
-[282月2025 20:17:43.922] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key solarPanelHeatMultiplier was corrected from null to its default, 1.0. 
-[282月2025 20:17:43.923] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key maxWireLength was corrected from null to its default, 16. 
-[282月2025 20:17:43.924] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Motors was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.924] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Motors.motorSuMultiplier was corrected from null to its default, 1.0. 
-[282月2025 20:17:43.924] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Motors.basicMotorCapacity was corrected from null to its default, 16000. 
-[282月2025 20:17:43.924] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Motors.advancedMotorCapacity was corrected from null to its default, 64000. 
-[282月2025 20:17:43.924] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Motors.reinforcedMotorCapacity was corrected from null to its default, 128000. 
-[282月2025 20:17:43.924] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Motors.basicMotorSpeed was corrected from null to its default, 128.0. 
-[282月2025 20:17:43.925] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Motors.advancedMotorSpeed was corrected from null to its default, 256.0. 
-[282月2025 20:17:43.925] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Motors.reinforcedMotorSpeed was corrected from null to its default, 256.0. 
-[282月2025 20:17:43.925] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Motors.basicMotorStress was corrected from null to its default, 512.0. 
-[282月2025 20:17:43.925] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Motors.advancedMotorStress was corrected from null to its default, 2048.0. 
-[282月2025 20:17:43.925] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Motors.reinforcedMotorStress was corrected from null to its default, 8192.0. 
-[282月2025 20:17:43.926] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Motor Extensions was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.926] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Motor Extensions.basicMotorExtensionMultiplier was corrected from null to its default, 2.0. 
-[282月2025 20:17:43.926] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Motor Extensions.advancedMotorExtensionMultiplier was corrected from null to its default, 8.0. 
-[282月2025 20:17:43.926] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Motor Extensions.basicMotorExtensionExtraCapacity was corrected from null to its default, 64000. 
-[282月2025 20:17:43.926] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Motor Extensions.advancedMotorExtensionExtraCapacity was corrected from null to its default, 256000. 
-[282月2025 20:17:43.926] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Motor Extensions.basicMotorExtensionScrollStep was corrected from null to its default, 1. 
-[282月2025 20:17:43.927] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Motor Extensions.advancedMotorExtensionScrollStep was corrected from null to its default, 8. 
-[282月2025 20:17:43.933] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file D:\.minecraft\config\create_connected-common.toml is not correct. Correcting
-[282月2025 20:17:43.934] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key migrateCopycatsOnBlockUpdate was corrected from null to its default, true. 
-[282月2025 20:17:43.935] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key migrateCopycatsOnInitialize was corrected from null to its default, true. 
-[282月2025 20:17:43.936] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.936] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.fluid_vessel was corrected from null to its default, true. 
-[282月2025 20:17:43.936] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.bamboo_window was corrected from null to its default, true. 
-[282月2025 20:17:43.936] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.item_silo was corrected from null to its default, true. 
-[282月2025 20:17:43.936] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.inverted_clutch was corrected from null to its default, true. 
-[282月2025 20:17:43.936] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.empty_fan_catalyst was corrected from null to its default, true. 
-[282月2025 20:17:43.936] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.parallel_gearbox was corrected from null to its default, true. 
-[282月2025 20:17:43.936] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.inventory_access_port was corrected from null to its default, true. 
-[282月2025 20:17:43.936] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.cherry_window was corrected from null to its default, true. 
-[282月2025 20:17:43.936] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.centrifugal_clutch was corrected from null to its default, true. 
-[282月2025 20:17:43.936] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.copycat_slab was corrected from null to its default, true. 
-[282月2025 20:17:43.936] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.overstress_clutch was corrected from null to its default, true. 
-[282月2025 20:17:43.936] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.brake was corrected from null to its default, true. 
-[282月2025 20:17:43.936] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.copycat_block was corrected from null to its default, true. 
-[282月2025 20:17:43.936] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.copycat_fence_gate was corrected from null to its default, true. 
-[282月2025 20:17:43.936] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.copycat_stairs was corrected from null to its default, true. 
-[282月2025 20:17:43.937] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.large_crank_wheel was corrected from null to its default, true. 
-[282月2025 20:17:43.937] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.brass_gearbox was corrected from null to its default, true. 
-[282月2025 20:17:43.937] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.copycat_vertical_step was corrected from null to its default, true. 
-[282月2025 20:17:43.937] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.copycat_wall was corrected from null to its default, true. 
-[282月2025 20:17:43.937] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.six_way_gearbox was corrected from null to its default, true. 
-[282月2025 20:17:43.937] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.crank_wheel was corrected from null to its default, true. 
-[282月2025 20:17:43.937] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.encased_chain_cogwheel was corrected from null to its default, true. 
-[282月2025 20:17:43.937] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.sequenced_pulse_generator was corrected from null to its default, true. 
-[282月2025 20:17:43.937] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.freewheel_clutch was corrected from null to its default, true. 
-[282月2025 20:17:43.937] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.shear_pin was corrected from null to its default, true. 
-[282月2025 20:17:43.937] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.inverted_gearshift was corrected from null to its default, true. 
-[282月2025 20:17:43.937] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.linked_transmitter was corrected from null to its default, true. 
-[282月2025 20:17:43.937] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.copycat_beam was corrected from null to its default, true. 
-[282月2025 20:17:43.937] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.copycat_board was corrected from null to its default, true. 
-[282月2025 20:17:43.937] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.inventory_bridge was corrected from null to its default, true. 
-[282月2025 20:17:43.937] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.copycat_fence was corrected from null to its default, true. 
-[282月2025 20:17:43.938] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key feature_categories was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.938] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key feature_categories.kinetic was corrected from null to its default, true. 
-[282月2025 20:17:43.939] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key feature_categories.redstone was corrected from null to its default, true. 
-[282月2025 20:17:43.939] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key feature_categories.logistics was corrected from null to its default, true. 
-[282月2025 20:17:43.939] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key feature_categories.copycats was corrected from null to its default, true. 
-[282月2025 20:17:43.939] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key feature_categories.palette was corrected from null to its default, true. 
-[282月2025 20:17:43.953] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file D:\.minecraft\config\railways-common.toml is not correct. Correcting
-[282月2025 20:17:43.954] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key registerMissingTracks was corrected from null to its default, false. 
-[282月2025 20:17:43.957] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key disableDatafixer was corrected from null to its default, false. 
-[282月2025 20:17:43.965] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file D:\.minecraft\config\create-common.toml is not correct. Correcting
-[282月2025 20:17:43.966] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen was corrected from null to its default, SimpleCommentedConfig:{}. 
-[282月2025 20:17:43.966] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.disableWorldGen was corrected from null to its default, false. 
-[282月2025 20:17:44.097] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[282月2025 20:17:44.245] [Worker-Main-12/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture createdieselgenerators:block/canister with size 24x24 limits mip level from 4 to 3
-[282月2025 20:17:44.816] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
-[282月2025 20:17:44.816] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
-[282月2025 20:17:45.348] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
-[282月2025 20:17:45.348] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_connected] Starting version check at https://raw.githubusercontent.com/hlysine/create_connected/main/update.json
-[282月2025 20:17:46.192] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_connected] Found status: UP_TO_DATE Current: 0.9.4-mc1.20.1 Target: null
-[282月2025 20:17:46.347] [Render thread/INFO] [com.jozufozu.flywheel.backend.Backend/]: Loaded all shader sources.
-[282月2025 20:17:47.891] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[282月2025 20:17:47.891] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[282月2025 20:17:47.911] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 扬声器 (2- High Definition Audio Device)
-[282月2025 20:17:47.912] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[282月2025 20:17:47.975] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x4 minecraft:textures/atlas/blocks.png-atlas
-[282月2025 20:17:48.165] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[282月2025 20:17:48.166] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[282月2025 20:17:48.168] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[282月2025 20:17:48.170] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[282月2025 20:17:48.186] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[282月2025 20:17:48.186] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[282月2025 20:17:48.187] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[282月2025 20:17:48.188] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[282月2025 20:17:48.269] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[282月2025 20:17:48.418] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x0 minecraft:textures/atlas/particles.png-atlas
-[282月2025 20:17:48.436] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[282月2025 20:17:48.438] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[282月2025 20:17:48.450] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
-[282月2025 20:17:48.458] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 52 train hat configurations.
-[282月2025 20:18:32.525] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[282月2025 20:18:32.528] [Worker-Main-5/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[282月2025 20:18:32.645] [Worker-Main-12/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture createdieselgenerators:block/canister with size 24x24 limits mip level from 4 to 3
-[282月2025 20:18:34.065] [Render thread/INFO] [com.jozufozu.flywheel.backend.Backend/]: Loaded all shader sources.
-[282月2025 20:18:34.109] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[282月2025 20:18:34.110] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[282月2025 20:18:34.123] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 扬声器 (2- High Definition Audio Device)
-[282月2025 20:18:34.124] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[282月2025 20:18:34.156] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x4 minecraft:textures/atlas/blocks.png-atlas
-[282月2025 20:18:34.282] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[282月2025 20:18:34.283] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[282月2025 20:18:34.285] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[282月2025 20:18:34.287] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[282月2025 20:18:34.301] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[282月2025 20:18:34.302] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[282月2025 20:18:34.303] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[282月2025 20:18:34.304] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[282月2025 20:18:34.338] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[282月2025 20:18:34.390] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x0 minecraft:textures/atlas/particles.png-atlas
-[282月2025 20:18:34.409] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[282月2025 20:18:34.410] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[282月2025 20:18:34.412] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
-[282月2025 20:18:34.415] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 52 train hat configurations.
-[282月2025 20:18:39.327] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[282月2025 20:18:39.327] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[282月2025 20:18:39.363] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 扬声器 (2- High Definition Audio Device)
-[282月2025 20:18:39.363] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[282月2025 20:19:27.281] [Render thread/INFO] [net.minecraft.client.gui.screens.ConnectScreen/]: Connecting to 10.180.199.161, 11451
-[282月2025 20:19:32.918] [Netty Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[282月2025 20:19:33.134] [Render thread/INFO] [BatchExecutor/]: Started 6 worker threads
-[282月2025 20:19:33.175] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
-[282月2025 20:19:33.175] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
-[282月2025 20:19:33.308] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
-[282月2025 20:19:34.131] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
-[282月2025 20:19:34.131] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
-[282月2025 20:19:34.131] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
-[282月2025 20:19:34.135] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
-[282月2025 20:19:34.137] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 2.110 ms
-[282月2025 20:19:34.137] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
-[282月2025 20:19:34.139] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 1.003 ms
-[282月2025 20:19:34.139] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
-[282月2025 20:19:34.183] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 2 duplicate items were found in creative tab: 机械动力：火炮
+[282月2025 21:32:13.502] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, Lin_morning, --version, 1.20.1-Forge_47.3.0, --gameDir, D:\.minecraft, --assetsDir, D:\.minecraft\assets, --assetIndex, 5, --uuid, 081c3fe1100649b3ab3b95ef9152cc86, --accessToken, ????????, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, msa, --versionType, PCL, --width, 873, --height, 508, --launchTarget, forgeclient, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[282月2025 21:32:13.515] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.8 by Microsoft; OS Windows 10 arch amd64 version 10.0
+[282月2025 21:32:14.055] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[282月2025 21:32:14.224] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[282月2025 21:32:14.567] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[282月2025 21:32:14.760] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics 770 GL version 4.6.0 - Build 31.0.101.5522, Intel
+[282月2025 21:32:14.770] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/.minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23150!/ Service=ModLauncher Env=CLIENT
+[282月2025 21:32:15.434] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\.minecraft\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.0\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[282月2025 21:32:15.450] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\.minecraft\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.0\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[282月2025 21:32:15.466] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\.minecraft\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.0\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[282月2025 21:32:15.482] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\.minecraft\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.0\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[282月2025 21:32:15.791] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[282月2025 21:32:18.105] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[282月2025 21:32:18.200] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.20.1-Forge_47.3.0, --gameDir, D:\.minecraft, --assetsDir, D:\.minecraft\assets, --uuid, 081c3fe1100649b3ab3b95ef9152cc86, --username, Lin_morning, --assetIndex, 5, --accessToken, ????????, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, msa, --versionType, PCL, --width, 873, --height, 508]
+[282月2025 21:32:19.231] [main/WARN] [mixin/]: Error loading class: xfacthd/framedblocks/common/blockentity/doubled/FramedAdjustableDoubleBlockEntity (java.lang.ClassNotFoundException: xfacthd.framedblocks.common.blockentity.doubled.FramedAdjustableDoubleBlockEntity)
+[282月2025 21:32:19.233] [main/WARN] [mixin/]: @Mixin target xfacthd.framedblocks.common.blockentity.doubled.FramedAdjustableDoubleBlockEntity was not found createbigcannons.mixins.json:compat.FramedAdjustableDoubleBlockEntityAccessor
+[282月2025 21:32:20.386] [main/WARN] [mixin/]: Error loading class: dev/emi/emi/screen/widget/EmiSearchWidget (java.lang.ClassNotFoundException: dev.emi.emi.screen.widget.EmiSearchWidget)
+[282月2025 21:32:20.402] [main/WARN] [mixin/]: @Mixin target dev.emi.emi.screen.widget.EmiSearchWidget was not found imblocker-forge.mixins.json:EmiSearchWidgetMixin
+[282月2025 21:32:20.402] [main/WARN] [mixin/]: Error loading class: me/shedaniel/rei/impl/client/gui/widget/basewidgets/TextFieldWidget (java.lang.ClassNotFoundException: me.shedaniel.rei.impl.client.gui.widget.basewidgets.TextFieldWidget)
+[282月2025 21:32:20.402] [main/WARN] [mixin/]: Error loading class: me/shedaniel/rei/gui/widget/TextFieldWidget (java.lang.ClassNotFoundException: me.shedaniel.rei.gui.widget.TextFieldWidget)
+[282月2025 21:32:20.417] [main/WARN] [mixin/]: Error loading class: com/copycatsplus/copycats/content/copycat/slab/CopycatSlabBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock)
+[282月2025 21:32:20.417] [main/WARN] [mixin/]: @Mixin target com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin
+[282月2025 21:32:20.434] [main/WARN] [mixin/]: Error loading class: com/copycatsplus/copycats/content/copycat/board/CopycatBoardBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock)
+[282月2025 21:32:20.435] [main/WARN] [mixin/]: @Mixin target com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin
+[282月2025 21:32:20.441] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults)
+[282月2025 21:32:20.764] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[282月2025 21:32:26.031] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 183 milliseconds
+[282月2025 21:32:28.430] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/.minecraft/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23174!/assets/.mcassetsroot' uses unexpected schema
+[282月2025 21:32:28.433] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/.minecraft/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23174!/data/.mcassetsroot' uses unexpected schema
+[282月2025 21:32:28.462] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[282月2025 21:32:29.321] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Lin_morning
+[282月2025 21:32:29.466] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[282月2025 21:32:29.850] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[282月2025 21:32:29.851] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[282月2025 21:32:29.855] [modloading-worker-0/INFO] [create_new_age/]: Hello 1.20.1 Create!
+[282月2025 21:32:29.938] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
+[282月2025 21:32:29.970] [modloading-worker-0/INFO] [Railways/]: Steam 'n' Rails v1.6.7 initializing! Commit hash: 0a7cc000d6c7a1419919bc3e315bc62932287eb9 on Create version: 0.5.1j on platform: Forge
+[282月2025 21:32:30.925] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[282月2025 21:32:30.933] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 5.428 ms
+[282月2025 21:32:31.655] [modloading-worker-0/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on create_connected.mixins.json:sequencedgearshift.SequencedGearshiftScreenMixin::handler$znf000$updateParamsOfRow exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[282月2025 21:32:32.170] [modloading-worker-0/INFO] [Railways/]: Registered bogey styles from railways
+[282月2025 21:32:32.546] [modloading-worker-0/INFO] [Railways/]: Registering data fixers
+[282月2025 21:32:32.560] [Railways Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 2 Datafixer optimizations took 2 milliseconds
+[282月2025 21:32:32.574] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Hex Casting
+[282月2025 21:32:32.577] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Oh The Biomes You'll Go
+[282月2025 21:32:32.578] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Blue Skies
+[282月2025 21:32:32.579] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Twilight Forest
+[282月2025 21:32:32.586] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Biomes O' Plenty
+[282月2025 21:32:32.587] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Nature's Spirit
+[282月2025 21:32:32.588] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Dreams and Desires
+[282月2025 21:32:32.588] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Quark
+[282月2025 21:32:32.592] [modloading-worker-0/INFO] [Railways/]: Registering tracks for TerraFirmaCraft
+[282月2025 21:32:36.639] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[282月2025 21:32:36.715] [modloading-worker-0/INFO] [io.github.reserveword.imblocker.common.Common/]: imblock loading config
+[282月2025 21:32:36.718] [modloading-worker-0/WARN] [io.github.reserveword.imblocker.common.Common/]: Class journeymap.client.ui.waypoint.WaypointEditor not found, ignored.
+[282月2025 21:32:36.718] [modloading-worker-0/WARN] [io.github.reserveword.imblocker.common.Common/]: Class com.ldtteam.blockout.BOScreen not found, ignored.
+[282月2025 21:32:36.718] [modloading-worker-0/INFO] [io.github.reserveword.imblocker.common.Common/]: imblocker bakelist screenWhitelist result [class net.minecraft.client.gui.screens.inventory.HangingSignEditScreen, class net.minecraft.client.gui.screens.inventory.BookEditScreen, class net.minecraft.client.gui.screens.inventory.SignEditScreen]
+[282月2025 21:32:36.718] [modloading-worker-0/INFO] [io.github.reserveword.imblocker.common.Common/]: imblocker bakelist screenBlacklist result []
+[282月2025 21:32:36.718] [modloading-worker-0/INFO] [io.github.reserveword.imblocker.common.Common/]: imblocker bakelist inputWhitelist result []
+[282月2025 21:32:36.718] [modloading-worker-0/INFO] [io.github.reserveword.imblocker.common.Common/]: imblocker bakelist inputBlacklist result []
+[282月2025 21:32:36.989] [Worker-Main-9/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[282月2025 21:32:37.653] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[282月2025 21:32:39.304] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
+[282月2025 21:32:39.305] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[282月2025 21:32:39.583] [Worker-Main-11/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture createdieselgenerators:block/canister with size 24x24 limits mip level from 4 to 3
+[282月2025 21:32:39.935] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
+[282月2025 21:32:39.935] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_connected] Starting version check at https://raw.githubusercontent.com/hlysine/create_connected/main/update.json
+[282月2025 21:32:42.379] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_connected] Found status: UP_TO_DATE Current: 0.9.4-mc1.20.1 Target: null
+[282月2025 21:32:43.671] [Render thread/INFO] [com.jozufozu.flywheel.backend.Backend/]: Loaded all shader sources.
+[282月2025 21:32:46.331] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[282月2025 21:32:46.333] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[282月2025 21:32:46.438] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 扬声器 (2- High Definition Audio Device)
+[282月2025 21:32:46.439] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[282月2025 21:32:46.608] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[282月2025 21:32:46.769] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[282月2025 21:32:46.770] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[282月2025 21:32:46.772] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[282月2025 21:32:46.774] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[282月2025 21:32:46.792] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[282月2025 21:32:46.793] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[282月2025 21:32:46.795] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[282月2025 21:32:46.796] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[282月2025 21:32:46.994] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[282月2025 21:32:47.128] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x0 minecraft:textures/atlas/particles.png-atlas
+[282月2025 21:32:47.152] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[282月2025 21:32:47.154] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[282月2025 21:32:47.187] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[282月2025 21:32:47.201] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 52 train hat configurations.
+[282月2025 21:32:53.645] [Render thread/INFO] [net.minecraft.client.gui.screens.ConnectScreen/]: Connecting to 10.180.199.161, 11451
+[282月2025 21:32:54.090] [Netty Client IO #1/INFO] [net.minecraftforge.client.ForgeHooksClient/CLIENTHOOKS]: Client has mods that are missing on server: [jei, imblocker]
+[282月2025 21:33:16.663] [ForkJoinPool.commonPool-worker-1/ERROR] [Railways/]: Failed to fetch dev cape data
+java.io.IOException: Connection reset
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:586) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:?]
+	at com.railwayteam.railways.util.DevCapeUtils.lambda$refresh$0(DevCapeUtils.java:61) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170) ~[java.net.http:?]
+	at jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833) ~[java.net.http:?]
+	at jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256) ~[java.net.http:?]
+	at jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774) ~[java.net.http:?]
+	at jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957) ~[java.net.http:?]
+	at jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:979) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:934) ~[java.net.http:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:934) ~[java.net.http:?]
+[282月2025 21:33:26.674] [Render thread/INFO] [net.minecraft.client.gui.screens.ConnectScreen/]: Connecting to 10.180.199.161, 11451
+[282月2025 21:33:35.166] [Netty Client IO #2/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[282月2025 21:33:35.656] [Render thread/INFO] [BatchExecutor/]: Started 6 worker threads
+[282月2025 21:33:35.858] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
+[282月2025 21:33:35.858] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
+[282月2025 21:33:36.181] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
+[282月2025 21:33:37.709] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[282月2025 21:33:37.710] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
+[282月2025 21:33:37.711] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
+[282月2025 21:33:37.720] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[282月2025 21:33:37.726] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 4.332 ms
+[282月2025 21:33:37.726] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[282月2025 21:33:37.728] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 2.181 ms
+[282月2025 21:33:37.729] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[282月2025 21:33:37.823] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 2 duplicate items were found in creative tab: 机械动力：火炮
 This may indicate that these types of item need a subtype interpreter added to JEI:
-[big_cartridge, autocannon_cartridge]
-[282月2025 20:19:34.204] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 64.51 milliseconds
-[282月2025 20:19:34.204] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 64.94 ms
-[282月2025 20:19:34.212] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
-[282月2025 20:19:34.254] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: create:jei_plugin took 18.66 milliseconds
-[282月2025 20:19:34.255] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 43.17 ms
-[282月2025 20:19:34.256] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
-[282月2025 20:19:34.257] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 1.511 ms
-[282月2025 20:19:34.259] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
-[282月2025 20:19:34.260] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 1.480 ms
-[282月2025 20:19:34.261] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
-[282月2025 20:19:34.261] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 238.7 μs
-[282月2025 20:19:34.261] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
-[282月2025 20:19:34.271] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 9.333 ms
-[282月2025 20:19:34.275] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
-[282月2025 20:19:34.405] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 129.6 milliseconds
-[282月2025 20:19:34.492] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: create:jei_plugin took 73.46 milliseconds
-[282月2025 20:19:34.492] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 216.9 ms
-[282月2025 20:19:34.498] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
-[282月2025 20:19:34.501] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 2.055 ms
-[282月2025 20:19:34.505] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
-[282月2025 20:19:34.508] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
-[282月2025 20:19:34.515] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 6.162 ms
-[282月2025 20:19:34.517] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
-[282月2025 20:19:34.518] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
-[282月2025 20:19:34.518] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
-[282月2025 20:19:34.521] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 2.385 ms
-[282月2025 20:19:34.521] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
-[282月2025 20:19:34.535] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 2832 ingredients
-[282月2025 20:19:34.664] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 2832/2832 ingredients
-[282月2025 20:19:34.665] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 144.5 ms
-[282月2025 20:19:34.727] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:forge_gui took 210.2 milliseconds
-[282月2025 20:19:34.727] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 210.6 ms
-[282月2025 20:19:34.728] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 223.0 ms
-[282月2025 20:19:34.728] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
-[282月2025 20:19:34.728] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 217.9 μs
-[282月2025 20:19:34.728] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 597.1 ms
-[282月2025 20:19:34.875] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
-[282月2025 20:19:34.883] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being removed at runtime: 49 net.minecraft.world.item.ItemStack
-[282月2025 20:19:34.885] [Render thread/ERROR] [mezz.jei.gui.ingredients.IngredientFilter/]: Could not find a matching ingredient to remove: 1 fan_seething_catalyst create_connected:fan_seething_catalyst
-[282月2025 20:19:34.885] [Render thread/ERROR] [mezz.jei.gui.ingredients.IngredientFilter/]: Could not find a matching ingredient to remove: 1 fan_freezing_catalyst create_connected:fan_freezing_catalyst
-[282月2025 20:19:34.885] [Render thread/ERROR] [mezz.jei.gui.ingredients.IngredientFilter/]: Could not find a matching ingredient to remove: 1 fan_sanding_catalyst create_connected:fan_sanding_catalyst
-[282月2025 20:19:34.886] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being added at runtime: 46 net.minecraft.world.item.ItemStack
-[282月2025 20:19:34.887] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being removed at runtime: 49 net.minecraft.world.item.ItemStack
-[282月2025 20:19:34.887] [Render thread/ERROR] [mezz.jei.gui.ingredients.IngredientFilter/]: Could not find a matching ingredient to remove: 1 fan_seething_catalyst create_connected:fan_seething_catalyst
-[282月2025 20:19:34.887] [Render thread/ERROR] [mezz.jei.gui.ingredients.IngredientFilter/]: Could not find a matching ingredient to remove: 1 fan_freezing_catalyst create_connected:fan_freezing_catalyst
-[282月2025 20:19:34.887] [Render thread/ERROR] [mezz.jei.gui.ingredients.IngredientFilter/]: Could not find a matching ingredient to remove: 1 fan_sanding_catalyst create_connected:fan_sanding_catalyst
-[282月2025 20:19:34.887] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being added at runtime: 46 net.minecraft.world.item.ItemStack
-[282月2025 20:19:36.026] [Worker-Main-8/ERROR] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService/]: Signature is missing from Property textures
-[282月2025 20:19:38.772] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 13 advancements
-[282月2025 20:20:21.972] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 15 advancements
-[282月2025 20:21:03.208] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [cjjdmm: 已将时间设为1000]
-[282月2025 20:21:48.122] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 46 advancements
-[282月2025 20:21:57.822] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已将Lin_morning传送至0.500000, -53.383788, 0.500000
-[282月2025 20:23:14.422] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 85 advancements
-[282月2025 20:23:15.622] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 120 advancements
-[282月2025 20:23:53.638] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cjjdmm取得了进度[各位请上车！]
-[282月2025 20:24:01.422] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] cjjdmm达成了目标[泥头车，冲刺！]
-[282月2025 20:25:19.222] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [cjjdmm: 已将1个[结构方块]给予cjjdmm]
-[282月2025 20:25:47.588] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [cjjdmm: 更改了位于-28, -55, -1的方块]
-[282月2025 20:26:39.472] [Render thread/WARN] [com.simibubi.create.Create/]: Track network: dae0ae failed its checksum; Requesting refresh
-[282月2025 20:28:52.621] [Render thread/WARN] [com.simibubi.create.Create/]: Track network: 420f38 failed its checksum; Requesting refresh
-[282月2025 20:30:59.021] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 132 advancements
-[282月2025 20:31:44.588] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [cjjdmm: 已将时间设为1000]
-[282月2025 20:32:08.456] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
-[282月2025 20:32:08.456] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
-[282月2025 20:32:08.456] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
-[282月2025 20:32:08.456] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
-[282月2025 20:32:08.457] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
-[282月2025 20:32:08.458] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 1.559 ms
-[282月2025 20:32:19.139] [Netty Client IO #1/INFO] [net.minecraftforge.client.ForgeHooksClient/CLIENTHOOKS]: Client has mods that are missing on server: [jei, imblocker]
+[autocannon_cartridge, big_cartridge]
+[282月2025 21:33:37.879] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 148.0 milliseconds
+[282月2025 21:33:37.880] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 149.1 ms
+[282月2025 21:33:37.894] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[282月2025 21:33:37.914] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 19.24 milliseconds
+[282月2025 21:33:37.932] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: createbigcannons:jei_plugin took 16.98 milliseconds
+[282月2025 21:33:37.977] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: create:jei_plugin took 36.47 milliseconds
+[282月2025 21:33:37.979] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 84.43 ms
+[282月2025 21:33:37.980] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[282月2025 21:33:37.983] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 3.225 ms
+[282月2025 21:33:37.986] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[282月2025 21:33:37.989] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 3.340 ms
+[282月2025 21:33:37.991] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[282月2025 21:33:37.992] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 381.6 μs
+[282月2025 21:33:37.992] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
+[282月2025 21:33:38.024] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 32.06 ms
+[282月2025 21:33:38.029] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[282月2025 21:33:38.273] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 244.6 milliseconds
+[282月2025 21:33:38.303] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: createbigcannons:jei_plugin took 28.91 milliseconds
+[282月2025 21:33:38.486] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: create:jei_plugin took 175.4 milliseconds
+[282月2025 21:33:38.486] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 457.0 ms
+[282月2025 21:33:38.499] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[282月2025 21:33:38.504] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 4.617 ms
+[282月2025 21:33:38.515] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
+[282月2025 21:33:38.523] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[282月2025 21:33:38.538] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 14.70 ms
+[282月2025 21:33:38.542] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[282月2025 21:33:38.545] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
+[282月2025 21:33:38.545] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
+[282月2025 21:33:38.552] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 6.806 ms
+[282月2025 21:33:38.552] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
+[282月2025 21:33:38.577] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 2832 ingredients
+[282月2025 21:33:38.906] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 2832/2832 ingredients
+[282月2025 21:33:38.909] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 355.8 ms
+[282月2025 21:33:39.033] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:forge_gui took 489.1 milliseconds
+[282月2025 21:33:39.033] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 490.3 ms
+[282月2025 21:33:39.034] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 519.6 ms
+[282月2025 21:33:39.035] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[282月2025 21:33:39.036] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 627.9 μs
+[282月2025 21:33:39.036] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 1.324 s
+[282月2025 21:33:39.430] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 132 advancements
+[282月2025 21:33:39.470] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being removed at runtime: 49 net.minecraft.world.item.ItemStack
+[282月2025 21:33:39.478] [Render thread/ERROR] [mezz.jei.gui.ingredients.IngredientFilter/]: Could not find a matching ingredient to remove: 1 fan_seething_catalyst create_connected:fan_seething_catalyst
+[282月2025 21:33:39.479] [Render thread/ERROR] [mezz.jei.gui.ingredients.IngredientFilter/]: Could not find a matching ingredient to remove: 1 fan_freezing_catalyst create_connected:fan_freezing_catalyst
+[282月2025 21:33:39.479] [Render thread/ERROR] [mezz.jei.gui.ingredients.IngredientFilter/]: Could not find a matching ingredient to remove: 1 fan_sanding_catalyst create_connected:fan_sanding_catalyst
+[282月2025 21:33:39.480] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being added at runtime: 46 net.minecraft.world.item.ItemStack
+[282月2025 21:33:39.518] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being removed at runtime: 49 net.minecraft.world.item.ItemStack
+[282月2025 21:33:39.542] [Render thread/ERROR] [mezz.jei.gui.ingredients.IngredientFilter/]: Could not find a matching ingredient to remove: 1 fan_seething_catalyst create_connected:fan_seething_catalyst
+[282月2025 21:33:39.543] [Render thread/ERROR] [mezz.jei.gui.ingredients.IngredientFilter/]: Could not find a matching ingredient to remove: 1 fan_freezing_catalyst create_connected:fan_freezing_catalyst
+[282月2025 21:33:39.543] [Render thread/ERROR] [mezz.jei.gui.ingredients.IngredientFilter/]: Could not find a matching ingredient to remove: 1 fan_sanding_catalyst create_connected:fan_sanding_catalyst
+[282月2025 21:33:39.544] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being added at runtime: 46 net.minecraft.world.item.ItemStack
+[282月2025 21:33:53.589] [Worker-Main-2/ERROR] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService/]: Signature is missing from Property textures
+[282月2025 21:34:01.661] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 133 advancements
+[282月2025 21:35:47.814] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 139 advancements
+[282月2025 21:38:14.514] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 140 advancements
+[282月2025 21:38:23.499] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [cjjdmm: 已将时间设为1000]
+[282月2025 21:39:52.947] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Lin_morning取得了进度[各位请上车！]
+[282月2025 21:39:52.964] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 144 advancements
+[282月2025 21:40:44.930] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [cjjdmm: 更改了位于47, -53, -14的方块]
+[282月2025 21:41:01.530] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [cjjdmm: 更改了位于41, -53, -16的方块]
+[282月2025 21:41:48.096] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [cjjdmm: 更改了位于30, -53, -21的方块]
+[282月2025 21:42:03.830] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [cjjdmm: 更改了位于12, -53, -17的方块]
+[282月2025 21:42:38.687] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[282月2025 21:42:38.687] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[282月2025 21:42:38.688] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[282月2025 21:42:38.688] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[282月2025 21:42:38.688] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
+[282月2025 21:42:38.689] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 1.262 ms
+[282月2025 21:42:41.415] [Netty Client IO #3/INFO] [net.minecraftforge.client.ForgeHooksClient/CLIENTHOOKS]: Client has mods that are missing on server: [jei, imblocker]
+[282月2025 21:42:41.667] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
